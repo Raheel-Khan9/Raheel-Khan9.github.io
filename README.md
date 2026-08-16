@@ -11,8 +11,7 @@
 ---
 
 ## 🌐 Live Portfolio Website
-👉 **Live URL:** [`https://<your-github-username>.github.io/<repo-name>/`
-](https://github.com/Raheel-Khan9/raheelkhanofficial7.github.io)
+👉 **Live URL:** [`(https://github.com/Raheel-Khan9/raheelkhanofficial7.github.io)`]
 ---
 
 ## 💼 Core Competencies
