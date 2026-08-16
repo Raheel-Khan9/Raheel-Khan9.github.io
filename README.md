@@ -11,11 +11,6 @@
 
 ---
 
-## 🌐 Live Portfolio Website
-👉 **Live URL:** [https://raheel-khan9.github.io/raheelkhanofficial7.github.io/](https://raheel-khan9.github.io/raheelkhanofficial7.github.io/)
-
----
-
 ## 📊 Executive Value Delivered Across 6 Key Domains
 
 ```
@@ -53,15 +48,15 @@
 
 ## 🏢 Professional Experience
 
-### IT Systems & Security Compliance Lead / System Administrator
+### IT Systems Administrator
 **Doo Group (Doo ME Insurance Broker LLC) — Dubai, UAE** | *Aug 2024 – Present*  
 *(Regulated Financial Services & Enterprise Brokerage | 250+ Users)*
+- **Technical Support** Provided L2/L3 support to over 250+ staff for company operational CRM software, ensuring smooth brokerage operations.  
 - **Regulatory Audit Success:** Authored DHA GC 05-2026 BCP and completed comprehensive CBUAE AML/CFT risk categorization, ensuring 100% compliance with Central Bank audit requirements ahead of deadlines.
 - **Operational Resilience (DRP):** Engineered a Disaster Recovery Plan underpinned by a strict 3-2-1 backup architecture and Business Impact Analysis (BIA), reducing single-point-of-failure risks.
 - **Cloud & Identity Defense:** Hardened Microsoft 365 and Entra ID environments for 250+ enterprise users; configured Conditional Access, Privileged Identity Management (PIM / Just-In-Time access), and Role-Based Access Controls (RBAC).
 - **Threat Detection & SecOps:** Administered Microsoft Sentinel SIEM and CrowdStrike EDR; authored custom KQL queries and automated detection playbooks to triage endpoint, cloud, and identity alerts.
-- **Phishing & Brand Protection:** Implemented enterprise-wide DMARC, DKIM, and SPF policies alongside Defender for Office 365 filtering, completely eliminating unauthorized domain spoofing attempts.
-- **Analytics & Automation:** Automated security audit logging and operational reporting using Python, SQL, and PowerShell scripts, cutting recurring reporting turnaround time by 40%.
+- **Analytics & Automation:** Automated operational reporting using Python, SQL, and Power BI Dashboards, cutting recurring reporting turnaround time by 40%.
 - **Third-Party Vendor Risk:** Established formal third-party vendor risk assessments (TPRM) and service level tracking, increasing visibility over external technical dependencies.
 
 ### System Administrator (L2 Operations & Security)
@@ -70,13 +65,13 @@
 - **Healthcare Regulatory Compliance:** Closed 100% of identified compliance gaps for Abu Dhabi Healthcare Information and Cyber Security (ADHICS) audits across multiple healthcare portals.
 - **Infrastructure Administration:** Maintained Active Directory, user access permissions, and Group Policy Objects (GPOs); deployed ManageEngine Mobile Device Manager (MEDM) to enforce strict endpoint security on clinical workstations.
 - **Data Protection & Backup:** Managed daily and weekly offsite backup routines using Veeam Cloud Backup, guaranteeing zero data loss across critical patient records and design databases.
-- **Operational KPI Dashboards:** Designed performance tracking reports in Excel and PowerQuery to monitor support ticket resolution times, reducing average ticket turnaround by 25%.
+- **Operational KPI Dashboards:** Designed performance tracking reports in Excel to monitor support ticket resolution times, reducing average ticket turnaround by 25%.
 
 ### IT Infrastructure & Network Engineer
 **Wi-Tribe — Telecommunications & Enterprise Internet Service Provider** | *Feb 2022 – Apr 2023*
 - **Network Availability:** Maintained 99.9% uptime for LAN/WAN infrastructure, enterprise Cisco routers, switches, FortiGate firewalls, and site-to-site IPsec/SSL VPN tunnels.
 - **Data Center Relocation Project:** Co-managed the physical and logical migration of data center assets, servers, and network switching equipment with zero unplanned service disruption.
-- **SLA-Driven Support:** Resolved L1/L2 escalation queues via Jira Service Management and Trello while documenting standard operating procedures (SOPs) for recurring technical incidents.
+- **SLA-Driven Support:** Resolved L1/L2 escalation queues via Jira Service Management while documenting standard operating procedures (SOPs) for recurring technical incidents.
 
 ### Cybersecurity Analyst
 **Halool Pvt Ltd — Enterprise Technology & Security Services** | *Sep 2021 – Feb 2022*
@@ -88,11 +83,11 @@
 ## 🛠️ Technical & Methodological Arsenal
 
 - **Security Operations:** Microsoft Sentinel, CrowdStrike Falcon, Wazuh, KQL Hunting, UEBA, SOAR / Logic Apps, MITRE ATT&CK.
-- **Cloud & Identity:** Microsoft Azure, Entra ID (Azure AD), Conditional Access, PIM, MFA, Microsoft 365 Security, Defender for Cloud/Office 365, PAM360.
+- **Cloud & Identity:** Microsoft Azure, AWS, GCP, Entra ID (Azure AD), Conditional Access, PIM, MFA, Microsoft 365 Security, Defender for Cloud/Office 365, PAM360.
 - **Systems & Network Infrastructure:** Windows Server, Active Directory GPOs, Cisco Routers/Switches, FortiGate Firewalls, VPN (IPsec/SSL), Veeam Backup 3-2-1.
 - **Governance & Standards:** CBUAE Mandates, ADHICS Standards, ISO 27001, BCP/DRP, Business Impact Analysis (BIA), TPRM, UAE PDPL.
-- **Data Analysis & Tooling:** SQL, Python (Pandas/Automations), Microsoft Power BI, PowerQuery, Advanced Excel Modeling, PowerShell.
-- **Project & Service Management:** Jira, Trello, SLA Management, ITIL Foundation Principles, Agile/Scrum Workflows.
+- **Data Analysis & Tooling:** SQL, Python (Pandas/Automations), Microsoft Power BI, PowerQuery, Advanced Excel, Tableau.
+- **Project & Service Management:** MS Teams, Jira, Asana, Trello, SLA Management, Confluence, ITIL Foundation Principles, Agile/Scrum Workflows.
 
 ---
 
@@ -101,4 +96,4 @@
 - **Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Phone:** [+971 55 413 3764](tel:+971554133764)
 - **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
-- **Location:** Dubai / Abu Dhabi, United Arab Emirates (Available on Short Notice)
+- **Location:** Dubai, United Arab Emirates (Available on Short Notice)
