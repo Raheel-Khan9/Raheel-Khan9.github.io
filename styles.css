@@ -144,15 +144,100 @@ a {
 
 /* Hero Section */
 .hero-section {
-    padding: 80px 0 60px;
+    padding: 70px 0 50px;
     border-bottom: 1px solid var(--border-subtle);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Portrait Card */
+.hero-portrait-col {
+    display: flex;
+    justify-content: center;
+}
+
+.portrait-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-active);
+    border-radius: var(--radius-lg);
+    padding: 14px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 100%;
+    max-width: 280px;
+}
+
+.portrait-image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    margin-bottom: 14px;
+    border: 2px solid rgba(6, 182, 212, 0.3);
+    background: #000;
+}
+
+.portrait-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.portrait-card:hover .portrait-img {
+    transform: scale(1.03);
+}
+
+.portrait-caption {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.portrait-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.portrait-title {
+    font-size: 0.78rem;
+    font-family: var(--font-mono);
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+.portrait-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: var(--accent-emerald);
+    margin-top: 4px;
+    font-family: var(--font-mono);
+}
+
+/* Hero Content */
+.hero-content-col {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-status-bar {
     display: flex;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 24px;
+    gap: 14px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
 }
 
@@ -163,9 +248,9 @@ a {
     background: rgba(16, 185, 129, 0.1);
     color: var(--accent-emerald);
     border: 1px solid rgba(16, 185, 129, 0.25);
-    padding: 6px 14px;
+    padding: 5px 12px;
     border-radius: var(--radius-full);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
 }
 
@@ -191,11 +276,11 @@ a {
 }
 
 .hero-title {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 800;
     letter-spacing: -0.035em;
     line-height: 1.15;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .text-gradient {
@@ -205,17 +290,16 @@ a {
 .hero-tagline {
     font-family: var(--font-mono);
     color: var(--accent-cyan);
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .hero-bio {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     color: var(--text-muted);
-    max-width: 860px;
-    margin-bottom: 32px;
-    line-height: 1.75;
+    margin-bottom: 28px;
+    line-height: 1.7;
 }
 
 .hero-bio strong {
@@ -227,7 +311,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 16px;
-    margin-bottom: 36px;
+    margin-top: 10px;
 }
 
 .metric-card {
@@ -239,7 +323,7 @@ a {
 }
 
 .metric-num {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 800;
     font-family: var(--font-mono);
     color: var(--text-main);
@@ -248,14 +332,14 @@ a {
 }
 
 .metric-label {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     line-height: 1.4;
 }
 
 .hero-cta-group {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     flex-wrap: wrap;
 }
 
@@ -264,9 +348,9 @@ a {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 12px 22px;
+    padding: 11px 20px;
     border-radius: var(--radius-sm);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 600;
     cursor: pointer;
     transition: var(--transition);
@@ -909,6 +993,16 @@ pre {
 
 /* Responsive */
 @media (max-width: 900px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .hero-status-bar {
+        justify-content: center;
+    }
+    .hero-cta-group {
+        justify-content: center;
+    }
     .project-grid {
         grid-template-columns: 1fr;
     }
