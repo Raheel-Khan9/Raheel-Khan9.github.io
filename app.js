@@ -1,8 +1,9 @@
 /* ==========================================================================
-   Raheel Ahmed Khan - Portfolio Interactive Logic
+   Raheel Ahmed Khan - Portfolio Interactive Logic & Lightweight Animations
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+    // 1. Console Welcome Banner for Technical Recruiters & CISOs
     console.log(
         '%c🔒 Raheel Ahmed Khan | CISM, SC-200, CCNA, Security+\n' +
         '%cIT & Information Security Professional (Dubai & Abu Dhabi, UAE)\n' +
@@ -11,6 +12,52 @@ document.addEventListener('DOMContentLoaded', () => {
         'color: #10b981; font-size: 12px;',
         'color: #94a3b8; font-size: 11px;'
     );
+
+    // 2. Mobile Navigation Toggle
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    if (mobileToggle && navLinks) {
+        mobileToggle.addEventListener('click', () => {
+            const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+            mobileToggle.setAttribute('aria-expanded', !isExpanded);
+            mobileToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Auto-close menu when clicking on any nav link (Mobile/iOS/Android UX)
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileToggle.classList.remove('active');
+                mobileToggle.setAttribute('aria-expanded', 'false');
+                navLinks.classList.remove('active');
+            });
+        });
+    }
+
+    // 3. Scroll Reveal Lightweight Micro-Animations
+    if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.12,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        document.querySelectorAll('.reveal-section').forEach(section => {
+            revealObserver.observe(section);
+        });
+    } else {
+        // Fallback for older browsers
+        document.querySelectorAll('.reveal-section').forEach(section => {
+            section.classList.add('revealed');
+        });
+    }
 });
 
 // Interactive Domain Filter Switcher
@@ -28,16 +75,19 @@ function switchDomain(domain) {
         activeTab.classList.add('active');
     }
 
-    // 2. Filter domain cards
+    // 2. Filter domain cards with subtle micro-fade
     const cards = document.querySelectorAll('.domain-card');
     cards.forEach(card => {
         const cardDomain = card.getAttribute('data-domain');
         if (domain === 'all' || cardDomain === domain) {
             card.classList.remove('hidden');
             card.style.opacity = '0';
+            card.style.transform = 'translateY(8px)';
             setTimeout(() => {
+                card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
                 card.style.opacity = '1';
-            }, 50);
+                card.style.transform = 'translateY(0)';
+            }, 30);
         } else {
             card.classList.add('hidden');
         }

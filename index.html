@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Raheel Ahmed Khan (CISM) | IT & Information Security Professional | Dubai, UAE</title>
     <meta name="description" content="Portfolio of Raheel Ahmed Khan - CISM, Microsoft SC-200, Cisco CCNA, CompTIA Security+. 5 years experience (4 in UAE) in GRC Compliance, Cloud SecOps, Enterprise Systems, and Data-Driven Operations.">
     
@@ -16,19 +16,28 @@
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
+    <!-- Navigation Bar with Responsive Mobile Menu -->
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
                 <span class="logo-accent">&lt;</span>RAHEEL.KHAN<span class="logo-accent">/&gt;</span>
                 <span class="logo-badge">CISM</span>
             </a>
-            <div class="nav-links">
-                <a href="#about">Overview</a>
-                <a href="#competencies">Core Domains</a>
-                <a href="#certifications">Certifications</a>
-                <a href="#projects">Project Artifacts</a>
-                <a href="#experience">Experience</a>
+
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">Overview</a>
+                <a href="#competencies" class="nav-link">Core Domains</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#projects" class="nav-link">Artifacts</a>
+                <a href="#experience" class="nav-link">Experience</a>
                 <a href="#contact" class="nav-btn">Get In Touch</a>
             </div>
         </div>
@@ -37,15 +46,15 @@
     <!-- Main Container -->
     <main class="container">
 
-        <!-- Hero Section with Professional Headshot -->
-        <section id="about" class="hero-section">
+        <!-- Hero Section with Responsive Portrait -->
+        <section id="about" class="hero-section fade-in-up">
             <div class="hero-grid">
                 
                 <!-- Left: Profile Image / Portrait Card -->
                 <div class="hero-portrait-col">
                     <div class="portrait-card">
                         <div class="portrait-image-wrapper">
-                            <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" class="portrait-img" id="profile-photo">
+                            <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" class="portrait-img" id="profile-photo" loading="eager">
                         </div>
                         <div class="portrait-caption">
                             <div class="portrait-name">Raheel Ahmed Khan</div>
@@ -119,20 +128,22 @@
         </section>
 
         <!-- Structured Competency Matrix Section -->
-        <section id="competencies" class="section">
+        <section id="competencies" class="section reveal-section">
             <div class="section-header">
                 <h2 class="section-title">Categorized Technical & Operational Arsenal</h2>
                 <p class="section-subtitle">Clearly structured domains without jargon overlap, mapping directly to enterprise requirements.</p>
             </div>
 
             <!-- Domain Category Tabs -->
-            <div class="domain-tabs-wrapper">
-                <button class="domain-tab active" onclick="switchDomain('all')">View All Domains</button>
-                <button class="domain-tab" onclick="switchDomain('grc')">🛡️ Cybersecurity & GRC</button>
-                <button class="domain-tab" onclick="switchDomain('soc')">🚨 SecOps & Threat Defense</button>
-                <button class="domain-tab" onclick="switchDomain('data')">📊 Business & Data Analysis</button>
-                <button class="domain-tab" onclick="switchDomain('systems')">⚙️ Systems, Cloud & Infra</button>
-                <button class="domain-tab" onclick="switchDomain('apps')">💼 Enterprise Apps & CRM/ERP</button>
+            <div class="domain-tabs-scroll-wrapper">
+                <div class="domain-tabs-wrapper">
+                    <button class="domain-tab active" onclick="switchDomain('all')">View All Domains</button>
+                    <button class="domain-tab" onclick="switchDomain('grc')">🛡️ Cybersecurity & GRC</button>
+                    <button class="domain-tab" onclick="switchDomain('soc')">🚨 SecOps & Threat Defense</button>
+                    <button class="domain-tab" onclick="switchDomain('data')">📊 Business & Data Analysis</button>
+                    <button class="domain-tab" onclick="switchDomain('systems')">⚙️ Systems, Cloud & Infra</button>
+                    <button class="domain-tab" onclick="switchDomain('apps')">💼 Enterprise Apps & CRM/ERP</button>
+                </div>
             </div>
 
             <!-- Domain Cards Grid -->
@@ -267,7 +278,7 @@
         </section>
 
         <!-- Certifications Section -->
-        <section id="certifications" class="section">
+        <section id="certifications" class="section reveal-section">
             <div class="section-header">
                 <h2 class="section-title">Verified Industry Certifications & Accreditations</h2>
                 <p class="section-subtitle">Rigorous credentials validating managerial, operational, and architectural capabilities.</p>
@@ -361,7 +372,7 @@
         </section>
 
         <!-- Projects & Interactive Artifacts -->
-        <section id="projects" class="section">
+        <section id="projects" class="section reveal-section">
             <div class="section-header">
                 <h2 class="section-title">Technical Projects & Regulatory Artifacts</h2>
                 <p class="section-subtitle">Real-world implementations, detection rulebooks, and compliance frameworks built for enterprise resilience.</p>
@@ -461,7 +472,7 @@
                         <div class="calculator-title">⚡ Interactive RTO / RPO Disaster Recovery Estimator</div>
                         <div class="calc-grid">
                             <div class="calc-field">
-                                <label>Target System Criticality:</label>
+                                <label for="crit-level">Target System Criticality:</label>
                                 <select id="crit-level" onchange="calculateRTO()">
                                     <option value="tier1">Tier 1: Core Financial / Transaction DB (CBUAE)</option>
                                     <option value="tier2">Tier 2: Medical Health Records / ADHICS Portal</option>
@@ -532,7 +543,7 @@
         </section>
 
         <!-- Professional Experience Timeline -->
-        <section id="experience" class="section">
+        <section id="experience" class="section reveal-section">
             <div class="section-header">
                 <h2 class="section-title">Verified Professional Experience</h2>
                 <p class="section-subtitle">Track record of delivering measurable security, compliance, and IT operations outcomes in the UAE.</p>
@@ -594,7 +605,7 @@
                     <ul class="timeline-list">
                         <li><strong>Network Availability:</strong> Maintained 99.9% uptime for LAN/WAN infrastructure, enterprise Cisco routers, switches, FortiGate firewalls, and site-to-site IPsec/SSL VPN tunnels.</li>
                         <li><strong>Data Center Relocation Project:</strong> Co-managed the physical and logical migration of data center assets, servers, and network switching equipment with zero unplanned service disruption.</li>
-                        <li><strong>SLA-Driven Support:</strong> Resolved L1/L2 escalation queues via Jira Service Management while documenting standard operating procedures (SOPs) for recurring technical incidents.</li>
+                        <li><strong>SLA-Driven Support:</strong> Resolved L1/L2 escalation queues via Jira Service Management and Trello while documenting standard operating procedures (SOPs) for recurring technical incidents.</li>
                     </ul>
                 </div>
 
@@ -618,7 +629,7 @@
         </section>
 
         <!-- Call to Action / Contact -->
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section reveal-section">
             <div class="contact-card">
                 <h2>Let's Connect & Elevate Your Technology Operations</h2>
                 <p>
