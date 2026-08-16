@@ -1,92 +1,98 @@
-# 🛡️ Raheel Ahmed Khan (CISM, SC-200) | Multi-Domain Cybersecurity & IT Portfolio
+# 🛡️ Raheel Ahmed Khan (CISM) | IT & Information Security Portfolio
 
 [![CISM](https://img.shields.io/badge/ISACA-CISM_Certified-06b6d4?style=for-the-badge&logo=isaca)](https://linkedin.com/in/raheelkhanofficial7)
 [![SC-200](https://img.shields.io/badge/Microsoft-SC--200_Certified-3b82f6?style=for-the-badge&logo=microsoft)](https://linkedin.com/in/raheelkhanofficial7)
-[![Security+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--701-ef4444?style=for-the-badge&logo=comptia)](https://linkedin.com/in/raheelkhanofficial7)
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-10b981?style=for-the-badge&logo=cisco)](https://linkedin.com/in/raheelkhanofficial7)
+[![Security+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--701-ef4444?style=for-the-badge&logo=comptia)](https://linkedin.com/in/raheelkhanofficial7)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-Cybersecurity_Pro-f59e0b?style=for-the-badge&logo=googlecloud)](https://linkedin.com/in/raheelkhanofficial7)
-[![Location](https://img.shields.io/badge/Location-Dubai%2C%20UAE-a855f7?style=for-the-badge&logo=googlemaps)](https://linkedin.com/in/raheelkhanofficial7)
+[![Location](https://img.shields.io/badge/Location-Dubai%20%2F%20Abu%20Dhabi%2C%20UAE-a855f7?style=for-the-badge&logo=googlemaps)](https://linkedin.com/in/raheelkhanofficial7)
 
-> **CISM & Microsoft SC-200 Certified Technology Specialist** based in Dubai, UAE. Bringing hands-on technical SecOps engineering together with executive GRC regulatory compliance (**CBUAE, ADHICS, DHA GC 05-2026, ISO/IEC 27001:2022, NIST CSF 2.0, UAE PDPL**), enterprise network operations, and quantitative risk/data modeling.
+> **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
 ---
 
 ## 🌐 Live Portfolio Website
-👉 **Visit the Live Site:** [https://raheel-khan9.github.io/raheelkhanofficial7.github.io/](https://raheel-khan9.github.io/raheelkhanofficial7.github.io/)
+👉 **Live URL:** [https://raheel-khan9.github.io/raheelkhanofficial7.github.io/](https://raheel-khan9.github.io/raheelkhanofficial7.github.io/)
 
 ---
 
-## 🎯 Target Roles & Core Competency Matrix
-
-I am qualified and immediately available for the following operational domains:
+## 📊 Executive Value Delivered Across 6 Key Domains
 
 ```
 ┌────────────────────────────────────────┬────────────────────────────────────────┐
-│ 1. Cybersecurity Analyst               │ 2. IT & Information Security Officer   │
-│ • Threat Hunting & Vulnerability Mgmt  │ • ISMS (ISO 27001) & Policy Governance │
-│ • Log Correlation & CVE Remediation    │ • Identity Governance (IAM/Entra ID)   │
+│ 1. GRC & Regulatory Compliance         │ 2. SOC & Incident Response             │
+│ • CBUAE (Central Bank) & ADHICS Audits │ • Microsoft Sentinel & CrowdStrike EDR │
+│ • BCP, DRP (3-2-1 Mandate), BIA & TPRM │ • KQL Threat Hunting & Logic Apps SOAR │
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 3. GRC & Compliance Specialist         │ 4. SOC Analyst (L1/L2/L3) & SecOps     │
-│ • CBUAE Cyber Framework & Reporting    │ • Microsoft Sentinel (SC-200) & Wazuh  │
-│ • Abu Dhabi ADHICS & DHA Directives    │ • KQL Detection Engineering & MITRE    │
+│ 3. IT & Cloud Security                 │ 4. Enterprise Systems Operations       │
+│ • IAM/PAM, PIM (Just-In-Time Access)   │ • Windows Server, Active Directory GPO │
+│ • Entra ID, Conditional Access & MFA   │ • FortiGate Firewalls & Veeam 3-2-1    │
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 5. Systems & Technical Operations Eng. │ 6. Business & Data Analysis Specialist │
-│ • Cisco CCNA Routing & Switching       │ • AML/CFT Transaction Risk Modeling    │
-│ • ManageEngine MDM & DMARC Defense     │ • BIA Quantitative RTO/RPO Estimation  │
+│ 5. Business & Data Analytics           │ 6. Enterprise Applications & CRM/ERP   │
+│ • Power BI, SQL, Python ETL Pipelines  │ • Zoho, Salesforce, ManageEngine MDM   │
+│ • Quantitative AML/CFT Risk Modeling   │ • Jira Service Management & ITIL SLA   │
 └────────────────────────────────────────┴────────────────────────────────────────┘
 ```
 
 ---
 
-## 📜 Verified Industry Certifications
+## 📜 Verified Industry Certifications & Accreditations
 
-| Credential | Issuer | Scope & Domain |
-|---|---|---|
-| **CISM® (Certified Information Security Manager)** | ISACA | Information Security Governance, Risk Management, Incident Response |
-| **Microsoft Certified: Security Operations Analyst (SC-200)** | Microsoft | Microsoft Sentinel, Microsoft Defender for Cloud/Endpoint, KQL |
-| **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography |
-| **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security |
-| **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture |
-| **British Council IELTS Academic** | British Council | Band 7.5 (C1 Fluent Proficient) |
-| **Registered UAE Driver's License** | UAE RTA | Valid UAE Driver's License |
-| **B.Sc. in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 |
-
----
-
-## 🚀 Featured Projects & Production Artifacts
-
-### 1. 🏛️ UAE Multi-Regulatory GRC Mapping Engine & Gap Matrix
-- **Scope:** Mapped 150+ controls integrating Central Bank of UAE (CBUAE), Abu Dhabi DoH ADHICS 11 Domains, and ISO/IEC 27001:2022.
-- **Impact:** Reduced external audit readiness lead time by 40% and provided real-time control gap visibility.
-
-### 2. 🚨 Microsoft Sentinel & Wazuh Threat Detection Engineering (SC-200)
-- **Scope:** Authored custom KQL detection rules mapping to MITRE ATT&CK techniques (Impossible Travel, Privilege Escalation, Brute Force).
-- **Impact:** Reduced Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) across multi-source enterprise logs.
-
-### 3. ⚡ Disaster Recovery & Business Impact Analysis (BIA) Calculator
-- **Scope:** End-to-end BCP/DRP conforming to DHA GC 05-2026 and CBUAE 3-2-1 backup mandate.
-- **Impact:** Mathematical RTO/RPO estimation ensuring zero-data-loss ransomware recovery for critical business functions.
-
-### 4. ⚙️ Zero-Trust Perimeter & Endpoint Security Baseline
-- **Scope:** Complete DMARC (`p=reject`), SPF, and DKIM deployment paired with ManageEngine MDM device encryption for 50+ enterprise endpoints.
-- **Impact:** 100% elimination of domain spoofing / BEC phishing risks and full endpoint compliance.
-
-### 5. 📊 AML/CFT Financial Risk Categorization & SLA Analytics
-- **Scope:** Data modeling and transaction risk categorization for CBUAE central bank compliance reports + Jira SLA performance telemetry.
-- **Impact:** Achieved 99%+ SLA adherence and full compliance with banking anti-money laundering mandates.
+| Credential | Issuer | Scope & Domain | Validity |
+|---|---|---|---|
+| **CISM® (Certified Information Security Manager)** | ISACA | Information Security Governance, Risk Management, Incident Response | Valid to July 2026 |
+| **Microsoft Certified: Security Operations Analyst (SC-200)** | Microsoft | Microsoft Sentinel, Microsoft Defender for Cloud/Endpoint, KQL | Valid to July 2026 |
+| **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
+| **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
+| **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
+| **British Council IELTS Academic** | British Council | Band 7.5 (C1 Fluent English Proficient) | Certified |
+| **Registered UAE Driver's License** | UAE RTA | Valid & Active (Dubai / Abu Dhabi) | Active |
+| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 | Completed Feb 2021 |
 
 ---
 
-## 🏢 Professional Work History in the UAE
+## 🏢 Professional Experience
 
-- **System Administrator / GRC Specialist** — *Doo ME Insurance Broker LLC (Doo Group), Dubai, UAE* (Aug 2024 – Present)
-  - Authored DHA GC 05-2026 BCP; CBUAE AML/CFT Risk Categorization; CBUAE 3-2-1 DRP; DMARC `p=reject` rollout; TPRM vendor risk tracking.
-- **System Administrator / IT Compliance** — *Smile Link Dental Laboratory, Abu Dhabi, UAE* (Apr 2023 – May 2024)
-  - Closed Abu Dhabi DoH ADHICS audit gaps; Deployed ManageEngine MDM; Delivered L1/L2 support to 50+ medical staff.
-- **IT Support Engineer** — *Wi-Tribe (Telecom / ISP)* (Feb 2022 – Mar 2023)
-  - Managed Cisco LAN infrastructure; Led Data Center hardware relocation project; 99%+ SLA on Jira queues.
-- **Cybersecurity Analyst** — *Halool Pvt Ltd* (Sep 2021 – Feb 2022)
-  - Wazuh SIEM log monitoring; Incident triage, root-cause investigation, and vulnerability assessments.
+### IT Systems & Security Compliance Lead / System Administrator
+**Doo Group (Doo ME Insurance Broker LLC) — Dubai, UAE** | *Aug 2024 – Present*  
+*(Regulated Financial Services & Enterprise Brokerage | 250+ Users)*
+- **Regulatory Audit Success:** Authored DHA GC 05-2026 BCP and completed comprehensive CBUAE AML/CFT risk categorization, ensuring 100% compliance with Central Bank audit requirements ahead of deadlines.
+- **Operational Resilience (DRP):** Engineered a Disaster Recovery Plan underpinned by a strict 3-2-1 backup architecture and Business Impact Analysis (BIA), reducing single-point-of-failure risks.
+- **Cloud & Identity Defense:** Hardened Microsoft 365 and Entra ID environments for 250+ enterprise users; configured Conditional Access, Privileged Identity Management (PIM / Just-In-Time access), and Role-Based Access Controls (RBAC).
+- **Threat Detection & SecOps:** Administered Microsoft Sentinel SIEM and CrowdStrike EDR; authored custom KQL queries and automated detection playbooks to triage endpoint, cloud, and identity alerts.
+- **Phishing & Brand Protection:** Implemented enterprise-wide DMARC, DKIM, and SPF policies alongside Defender for Office 365 filtering, completely eliminating unauthorized domain spoofing attempts.
+- **Analytics & Automation:** Automated security audit logging and operational reporting using Python, SQL, and PowerShell scripts, cutting recurring reporting turnaround time by 40%.
+- **Third-Party Vendor Risk:** Established formal third-party vendor risk assessments (TPRM) and service level tracking, increasing visibility over external technical dependencies.
+
+### System Administrator (L2 Operations & Security)
+**Smile Link Dental Laboratory — Abu Dhabi, UAE** | *Apr 2023 – May 2024*  
+*(Healthcare & Clinical Technology Provider | 50+ Specialized Clinical & CAD/CAM Users)*
+- **Healthcare Regulatory Compliance:** Closed 100% of identified compliance gaps for Abu Dhabi Healthcare Information and Cyber Security (ADHICS) audits across multiple healthcare portals.
+- **Infrastructure Administration:** Maintained Active Directory, user access permissions, and Group Policy Objects (GPOs); deployed ManageEngine Mobile Device Manager (MEDM) to enforce strict endpoint security on clinical workstations.
+- **Data Protection & Backup:** Managed daily and weekly offsite backup routines using Veeam Cloud Backup, guaranteeing zero data loss across critical patient records and design databases.
+- **Operational KPI Dashboards:** Designed performance tracking reports in Excel and PowerQuery to monitor support ticket resolution times, reducing average ticket turnaround by 25%.
+
+### IT Infrastructure & Network Engineer
+**Wi-Tribe — Telecommunications & Enterprise Internet Service Provider** | *Feb 2022 – Apr 2023*
+- **Network Availability:** Maintained 99.9% uptime for LAN/WAN infrastructure, enterprise Cisco routers, switches, FortiGate firewalls, and site-to-site IPsec/SSL VPN tunnels.
+- **Data Center Relocation Project:** Co-managed the physical and logical migration of data center assets, servers, and network switching equipment with zero unplanned service disruption.
+- **SLA-Driven Support:** Resolved L1/L2 escalation queues via Jira Service Management and Trello while documenting standard operating procedures (SOPs) for recurring technical incidents.
+
+### Cybersecurity Analyst
+**Halool Pvt Ltd — Enterprise Technology & Security Services** | *Sep 2021 – Feb 2022*
+- **Alert Monitoring:** Monitored real-time security events across enterprise log sources using Wazuh SIEM.
+- **Incident Investigation:** Assisted in log analysis, evidence preservation, and post-incident documentation to identify attack vectors and recommend remediation steps.
+
+---
+
+## 🛠️ Technical & Methodological Arsenal
+
+- **Security Operations:** Microsoft Sentinel, CrowdStrike Falcon, Wazuh, KQL Hunting, UEBA, SOAR / Logic Apps, MITRE ATT&CK.
+- **Cloud & Identity:** Microsoft Azure, Entra ID (Azure AD), Conditional Access, PIM, MFA, Microsoft 365 Security, Defender for Cloud/Office 365, PAM360.
+- **Systems & Network Infrastructure:** Windows Server, Active Directory GPOs, Cisco Routers/Switches, FortiGate Firewalls, VPN (IPsec/SSL), Veeam Backup 3-2-1.
+- **Governance & Standards:** CBUAE Mandates, ADHICS Standards, ISO 27001, BCP/DRP, Business Impact Analysis (BIA), TPRM, UAE PDPL.
+- **Data Analysis & Tooling:** SQL, Python (Pandas/Automations), Microsoft Power BI, PowerQuery, Advanced Excel Modeling, PowerShell.
+- **Project & Service Management:** Jira, Trello, SLA Management, ITIL Foundation Principles, Agile/Scrum Workflows.
 
 ---
 
@@ -95,4 +101,4 @@ I am qualified and immediately available for the following operational domains:
 - **Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Phone:** [+971 55 413 3764](tel:+971554133764)
 - **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
-- **Location:** Dubai, United Arab Emirates (Available on standard/short notice)
+- **Location:** Dubai / Abu Dhabi, United Arab Emirates (Available on Short Notice)

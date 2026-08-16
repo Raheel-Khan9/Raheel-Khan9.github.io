@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Raheel Ahmed Khan - Cybersecurity, GRC & IT Operations Portfolio Stylesheet
-   Theme: Precision Dark Cyber / Clean Modern Typography
+   Raheel Ahmed Khan - Portfolio Stylesheet
+   Theme: Precision Dark Cyber / Executive Typography
    ========================================================================== */
 
 :root {
@@ -70,7 +70,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(8, 11, 17, 0.85);
+    background: rgba(8, 11, 17, 0.88);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-subtle);
@@ -213,13 +213,44 @@ a {
 .hero-bio {
     font-size: 1.1rem;
     color: var(--text-muted);
-    max-width: 840px;
-    margin-bottom: 36px;
+    max-width: 860px;
+    margin-bottom: 32px;
     line-height: 1.75;
 }
 
 .hero-bio strong {
     color: var(--text-main);
+}
+
+/* Hero Metrics Row */
+.hero-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+.metric-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    border-left: 3px solid var(--accent-cyan);
+}
+
+.metric-num {
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    color: var(--text-main);
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.metric-label {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.4;
 }
 
 .hero-cta-group {
@@ -298,18 +329,18 @@ a {
 .section-subtitle {
     color: var(--text-muted);
     font-size: 1rem;
-    max-width: 700px;
+    max-width: 750px;
 }
 
-/* Role Explorer / Multi-Role Tabs */
-.role-tabs-wrapper {
+/* Domain / Competency Tabs */
+.domain-tabs-wrapper {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
-.role-tab {
+.domain-tab {
     background: var(--bg-surface);
     border: 1px solid var(--border-subtle);
     color: var(--text-muted);
@@ -322,13 +353,13 @@ a {
     font-family: var(--font-sans);
 }
 
-.role-tab:hover {
+.domain-tab:hover {
     border-color: var(--accent-cyan);
     color: var(--text-main);
     background: var(--bg-card);
 }
 
-.role-tab.active {
+.domain-tab.active {
     background: var(--accent-cyan);
     color: #03141a;
     border-color: var(--accent-cyan);
@@ -336,13 +367,13 @@ a {
     box-shadow: 0 4px 14px rgba(6, 182, 212, 0.25);
 }
 
-.role-grid {
+.domain-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 22px;
 }
 
-.role-card {
+.domain-card {
     background: var(--bg-card);
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius-md);
@@ -353,24 +384,24 @@ a {
     justify-content: space-between;
 }
 
-.role-card:hover {
+.domain-card:hover {
     border-color: var(--border-active);
     background: var(--bg-card-hover);
     transform: translateY(-2px);
 }
 
-.role-card.hidden {
+.domain-card.hidden {
     display: none;
 }
 
-.role-card-header {
+.domain-card-header {
     display: flex;
     align-items: flex-start;
     gap: 14px;
     margin-bottom: 14px;
 }
 
-.role-icon {
+.domain-icon {
     font-size: 1.8rem;
     background: var(--bg-surface);
     padding: 10px;
@@ -378,14 +409,14 @@ a {
     border: 1px solid var(--border-subtle);
 }
 
-.role-title {
+.domain-title {
     font-size: 1.15rem;
     font-weight: 700;
     color: #ffffff;
     line-height: 1.3;
 }
 
-.role-badge {
+.domain-badge {
     display: inline-block;
     font-size: 0.75rem;
     font-family: var(--font-mono);
@@ -393,28 +424,31 @@ a {
     margin-top: 4px;
 }
 
-.role-desc {
+.domain-desc {
     color: var(--text-muted);
     font-size: 0.92rem;
     margin-bottom: 18px;
     line-height: 1.6;
 }
 
-.role-details {
+.domain-skills-group {
     border-top: 1px solid var(--border-subtle);
     padding-top: 14px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     font-size: 0.85rem;
 }
 
-.detail-row {
+.skill-row {
     color: var(--text-muted);
+    line-height: 1.5;
 }
 
-.detail-row strong {
+.skill-row strong {
     color: var(--text-main);
+    display: block;
+    margin-bottom: 2px;
 }
 
 /* Certifications Grid */
@@ -701,51 +735,6 @@ pre {
     color: var(--accent-emerald);
 }
 
-/* Skills Grid */
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-}
-
-.skill-category {
-    background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
-    border-radius: var(--radius-md);
-    padding: 24px;
-}
-
-.category-name {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 16px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border-subtle);
-}
-
-.skill-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.skill-list li {
-    position: relative;
-    padding-left: 20px;
-    color: var(--text-muted);
-    font-size: 0.92rem;
-}
-
-.skill-list li::before {
-    content: "▹";
-    position: absolute;
-    left: 0;
-    color: var(--accent-cyan);
-    font-weight: bold;
-}
-
 /* Experience Timeline */
 .timeline {
     position: relative;
@@ -796,6 +785,13 @@ pre {
     margin-top: 2px;
 }
 
+.timeline-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+    font-family: var(--font-mono);
+}
+
 .timeline-period {
     font-family: var(--font-mono);
     font-size: 0.85rem;
@@ -810,7 +806,7 @@ pre {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 .timeline-list li {
@@ -819,6 +815,10 @@ pre {
     color: var(--text-muted);
     font-size: 0.95rem;
     line-height: 1.6;
+}
+
+.timeline-list li strong {
+    color: var(--text-main);
 }
 
 .timeline-list li::before {
@@ -852,7 +852,7 @@ pre {
 .contact-card p {
     color: var(--text-muted);
     font-size: 1.05rem;
-    max-width: 680px;
+    max-width: 720px;
     margin: 0 auto 36px;
 }
 
