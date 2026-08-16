@@ -5,13 +5,44 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log(
         '%c🔒 Raheel Ahmed Khan | CISM, SC-200, Security+, CCNA\n' +
-        '%cSecurity Operations & UAE GRC Compliance (CBUAE / ADHICS / ISO 27001)\n' +
+        '%cMulti-Domain Cybersecurity, GRC, SOC & IT Operations Specialist (Dubai, UAE)\n' +
         '%cRecruiter or Security Engineer inspecting the source? Feel free to reach out at raheelkhan9@outlook.com',
         'color: #06b6d4; font-size: 14px; font-weight: bold;',
         'color: #10b981; font-size: 12px;',
         'color: #94a3b8; font-size: 11px;'
     );
 });
+
+// Interactive Role Filter Switcher
+function switchRole(role) {
+    // 1. Update tab active states
+    const tabs = document.querySelectorAll('.role-tab');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    
+    // Find clicked tab and activate
+    const activeTab = Array.from(tabs).find(t => {
+        const onclickAttr = t.getAttribute('onclick');
+        return onclickAttr && onclickAttr.includes(`'${role}'`);
+    });
+    if (activeTab) {
+        activeTab.classList.add('active');
+    }
+
+    // 2. Filter role cards
+    const cards = document.querySelectorAll('.role-card');
+    cards.forEach(card => {
+        const cardRole = card.getAttribute('data-role');
+        if (role === 'all' || cardRole === role) {
+            card.classList.remove('hidden');
+            card.style.opacity = '0';
+            setTimeout(() => {
+                card.style.opacity = '1';
+            }, 50);
+        } else {
+            card.classList.add('hidden');
+        }
+    });
+}
 
 // Copy KQL Query to Clipboard
 function copyKQL(button) {
