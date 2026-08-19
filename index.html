@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <!-- Custom Sciency Cursor Elements (Desktop) -->
+    <!-- Custom Blueish Sciency Cursor Elements (Desktop) -->
     <div class="cursor-dot" id="cursor-dot"></div>
     <div class="cursor-ring" id="cursor-ring"></div>
 
@@ -43,7 +43,7 @@
                 <a href="#about" class="nav-link">Overview</a>
                 <a href="#competencies" class="nav-link">Core Domains</a>
                 <a href="#certifications" class="nav-link">Certifications</a>
-                <a href="#projects" class="nav-link">Artifacts</a>
+                <a href="#projects" class="nav-link">Projects</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#contact" class="nav-btn">Get In Touch</a>
             </div>
@@ -386,10 +386,10 @@
             </div>
         </section>
 
-        <!-- Projects & Interactive Artifacts (Featuring AI & DevOps) -->
+        <!-- Projects Section (Mobile-Optimized & Clean Without Code Blocks) -->
         <section id="projects" class="section reveal-section">
             <div class="section-header">
-                <h2 class="section-title">Technical Projects & Production Artifacts</h2>
+                <h2 class="section-title">Technical Projects & Key Deliverables</h2>
                 <p class="section-subtitle">Real-world AI implementations, cloud solution pipelines, detection rulebooks, and compliance frameworks.</p>
             </div>
 
@@ -405,41 +405,22 @@
                     </div>
                     <h3 class="project-title">Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine</h3>
                     <p class="project-description">
-                        Designed and implemented a cascading deep neural network architecture in Google Colab for real-time facial expression and human emotion detection. Built through rigorous research into computer vision algorithms and landmark geometry vectors.
+                        Cascading deep neural network architecture designed in Google Colab for real-time facial expression and human emotion detection based on facial landmark geometric deformations.
                     </p>
                     
-                    <div class="project-highlights">
-                        <div class="highlight-item">
-                            <strong>Stage 1 (Facial Landmark Extraction):</strong> Built a convolutional landmark localization model identifying 68 facial fiducial coordinates across eyes, eyebrows, nose, and lips.
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Stage 1 (Landmark Detection):</strong> Convolutional localization model extracting 68 facial geometric fiducial coordinates across eyes, brows, nose, and lips.</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>Stage 2 (Emotion Vector Classification):</strong> Fed geometric deformation vectors into a deep classifier, categorizing human emotion (Joy, Anger, Surprise, Sadness, Neutral) with high accuracy.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Stage 2 (Emotion Classification):</strong> Deep classifier analyzing geometric vector shifts to infer emotional states (Joy, Anger, Surprise, Sadness, Neutral).</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>Research & Rigor:</strong> Demonstrates strong independent technical research, deep curiosity, hyperparameter tuning, and neural network optimization skills.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Academic Research Rigor:</strong> Demonstrates independent research, dataset preprocessing, image augmentation, and neural network hyperparameter tuning.</div>
                         </div>
-                    </div>
-
-                    <div class="interactive-preview">
-                        <div class="preview-header">
-                            <span>Python / TensorFlow Model Pipeline (Sample)</span>
-                            <button class="copy-btn" onclick="copySnippet('ai-code', this)">Copy Code</button>
-                        </div>
-                        <pre><code id="ai-code"># Two-Stage Facial Expression & Emotion Detection Pipeline
-import cv2, tensorflow as tf, numpy as np
-
-def extract_facial_landmarks(face_roi):
-    """Stage 1: Detect fiducial points on aligned facial image"""
-    preprocessed = cv2.resize(face_roi, (96, 96)) / 255.0
-    landmarks = landmark_model.predict(np.expand_dims(preprocessed, axis=0))
-    return landmarks.reshape(-1, 2)
-
-def infer_human_emotion(face_roi, landmarks):
-    """Stage 2: Classify emotion vector from extracted landmark geometry"""
-    feature_vector = compute_geometry_descriptors(landmarks)
-    predictions = emotion_classifier.predict(feature_vector)
-    emotions = ['Joy', 'Anger', 'Surprise', 'Sadness', 'Neutral']
-    return emotions[np.argmax(predictions)]</code></pre>
                     </div>
                 </div>
 
@@ -453,53 +434,22 @@ def infer_human_emotion(face_roi, landmarks):
                     </div>
                     <h3 class="project-title">Enterprise Microservices CI/CD & Kubernetes Solution Pipeline</h3>
                     <p class="project-description">
-                        Architected an automated end-to-end cloud solution pipeline deploying containerized enterprise microservices onto Azure Kubernetes Service (AKS) with automated health probes, GitLab CI/CD, and YAML declarations.
+                        Automated end-to-end cloud solution pipeline deploying containerized enterprise microservices onto Azure Kubernetes Service (AKS) with automated health probes and GitLab CI/CD.
                     </p>
 
-                    <div class="project-highlights">
-                        <div class="highlight-item">
-                            <strong>Container Orchestration:</strong> Authored multi-stage Dockerfiles and Kubernetes (K8s) deployment manifests with Horizontal Pod Autoscaling (HPA) and ingress controllers.
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Container Orchestration:</strong> Multi-stage Docker builds and declarative Kubernetes manifests with Horizontal Pod Autoscaling (HPA) and ingress routing.</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>GitLab CI/CD Automation:</strong> Automated pipeline execution via GitLab CLI / YAML including container vulnerability scanning, unit testing, and rolling zero-downtime deployments.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>GitLab CI/CD Automation:</strong> Automated YAML pipeline with container vulnerability scanning, automated testing, and rolling zero-downtime deployments.</div>
                         </div>
-                    </div>
-
-                    <div class="interactive-preview">
-                        <div class="preview-header">
-                            <span>Kubernetes Deployment & Probe Manifest (YAML)</span>
-                            <button class="copy-btn" onclick="copySnippet('devops-code', this)">Copy YAML</button>
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Resilience & Health Probes:</strong> Configured liveness, readiness, and startup probes with automated pod self-healing.</div>
                         </div>
-                        <pre><code id="devops-code">apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: enterprise-core-service
-  namespace: production
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: enterprise-core
-  template:
-    metadata:
-      labels:
-        app: enterprise-core
-    spec:
-      containers:
-      - name: app
-        image: registry.gitlab.com/enterprise/core-service:v2.4.0
-        ports:
-        - containerPort: 8080
-        livenessProbe:
-          httpGet:
-            path: /healthz
-            port: 8080
-          initialDelaySeconds: 15
-          periodSeconds: 10
-        resources:
-          limits:
-            cpu: "500m"
-            memory: "512Mi"</code></pre>
                     </div>
                 </div>
 
@@ -513,31 +463,18 @@ spec:
                     </div>
                     <h3 class="project-title">UAE Multi-Regulatory Compliance Engine & Gap Assessment Matrix</h3>
                     <p class="project-description">
-                        Engineered an integrated control mapping matrix unifying the Central Bank of UAE (CBUAE) Cybersecurity Regulatory Framework, Abu Dhabi Health Information & Cyber Security (ADHICS 11 Domains), and ISO/IEC 27001:2022.
+                        Integrated control mapping matrix unifying the Central Bank of UAE (CBUAE) Cybersecurity Regulatory Framework, Abu Dhabi ADHICS 11 Domains, and ISO/IEC 27001:2022.
                     </p>
                     
-                    <div class="project-highlights">
-                        <div class="highlight-item">
-                            <strong>150+ Controls Mapped:</strong> Cross-walked access control, encryption, incident response, and third-party risk dependencies.
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>150+ Controls Cross-Walked:</strong> Unified access control, encryption, incident response, and third-party vendor risk dependencies.</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>Audit Readiness:</strong> Automated gap-scoring reducing external regulatory preparation time by over 40%.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Audit Readiness:</strong> Automated gap-scoring reducing external audit preparation turnaround time by over 40%.</div>
                         </div>
-                    </div>
-
-                    <div class="interactive-preview">
-                        <div class="preview-header">
-                            <span>Compliance Mapping Sample (JSON Schema)</span>
-                        </div>
-                        <pre><code>{
-  "control_id": "CBUAE-CRF-5.2",
-  "adhics_ref": "ADHICS-D03-AC-02",
-  "iso_27001": "A.9.4.2",
-  "domain": "Access Control & Identity Governance",
-  "mandatory": true,
-  "status": "COMPLIANT",
-  "evidence": "Entra ID MFA & Conditional Access Policy Baseline"
-}</code></pre>
                     </div>
                 </div>
 
@@ -551,34 +488,22 @@ spec:
                     </div>
                     <h3 class="project-title">Enterprise Threat Detection Engineering & Incident Triage Playbooks</h3>
                     <p class="project-description">
-                        Designed and deployed high-fidelity analytic rules and threat hunting queries in Microsoft Sentinel and CrowdStrike Falcon to identify adversary techniques mapped against the MITRE ATT&CK framework.
+                        High-fidelity analytic rules and threat hunting queries in Microsoft Sentinel and CrowdStrike Falcon to identify adversary techniques mapped against the MITRE ATT&CK framework.
                     </p>
 
-                    <div class="project-highlights">
-                        <div class="highlight-item">
-                            <strong>KQL Detection Engineering:</strong> Authored custom queries for brute-force attacks, impossible travel, and unauthorized privilege escalation.
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>KQL Detection Engineering:</strong> Custom queries for brute-force attacks, impossible travel, and unauthorized privilege escalation.</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>Automated SecOps Playbooks:</strong> Built Logic App automations for instant IP isolation and high-severity alert escalations.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Automated Response Playbooks:</strong> Logic App automations for instant IP isolation and high-severity incident escalations.</div>
                         </div>
-                    </div>
-
-                    <div class="interactive-preview">
-                        <div class="preview-header">
-                            <span>Microsoft Sentinel KQL Rule (Impossible Travel)</span>
-                            <button class="copy-btn" onclick="copySnippet('kql-code', this)">Copy KQL</button>
-                        </div>
-                        <pre><code id="kql-code">SigninLogs
-| where ResultType == 0
-| summarize FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated) 
-    by UserPrincipalName, IPAddress, Location
-| extend PrevLocation = prev(Location), PrevTime = prev(LastSeen)
-| where Location != PrevLocation and datetime_diff('minute', FirstSeen, PrevTime) < 60
-| project UserPrincipalName, Location, PrevLocation, IPAddress, FirstSeen</code></pre>
                     </div>
                 </div>
 
-                <!-- Project 5: BCP / DRP Simulator -->
+                <!-- Project 5: BCP / DRP Resilience -->
                 <div class="project-card">
                     <div class="project-top">
                         <div class="project-badges">
@@ -588,30 +513,17 @@ spec:
                     </div>
                     <h3 class="project-title">Disaster Recovery & Business Impact Analysis (BIA) Framework</h3>
                     <p class="project-description">
-                        Formulated end-to-end Business Continuity Plans (BCP) and Disaster Recovery Plans (DRP) compliant with Dubai Health Authority (DHA GC 05-2026) and CBUAE 3-2-1 backup directives for financial and healthcare institutions.
+                        Formulated end-to-end Business Continuity Plans (BCP) and Disaster Recovery Plans (DRP) compliant with Dubai Health Authority (DHA GC 05-2026) and CBUAE 3-2-1 backup directives.
                     </p>
 
-                    <div class="bia-calculator">
-                        <div class="calculator-title">⚡ Interactive RTO / RPO Disaster Recovery Estimator</div>
-                        <div class="calc-grid">
-                            <div class="calc-field">
-                                <label for="crit-level">Target System Criticality:</label>
-                                <select id="crit-level" onchange="calculateRTO()">
-                                    <option value="tier1">Tier 1: Core Financial / Transaction DB (CBUAE)</option>
-                                    <option value="tier2">Tier 2: Medical Health Records / ADHICS Portal</option>
-                                    <option value="tier3">Tier 3: Internal Operations & Support</option>
-                                </select>
-                            </div>
-                            <div class="calc-results">
-                                <div class="res-box">
-                                    <span class="res-label">Max RTO (Recovery Time)</span>
-                                    <span class="res-value" id="rto-val">&lt; 15 Minutes</span>
-                                </div>
-                                <div class="res-box">
-                                    <span class="res-label">Max RPO (Data Loss)</span>
-                                    <span class="res-value" id="rpo-val">Zero (Continuous Sync)</span>
-                                </div>
-                            </div>
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Tier 1 Core Financial Systems:</strong> RTO &lt; 15 mins, RPO Zero (Continuous Sync & 3-2-1 Immutable Architecture).</div>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Operational BIA:</strong> Quantified financial and operational impact thresholds across enterprise infrastructure.</div>
                         </div>
                     </div>
                 </div>
@@ -626,15 +538,17 @@ spec:
                     </div>
                     <h3 class="project-title">AML/CFT Financial Risk Categorization & Operational Analytics</h3>
                     <p class="project-description">
-                        Developed data models and risk-tiering frameworks for CBUAE anti-money laundering (AML/CFT) regulatory reporting and operational reporting automation using Python, SQL, and Power BI dashboards.
+                        Quantitative data models and risk-tiering frameworks for CBUAE anti-money laundering (AML/CFT) regulatory reporting and operational reporting automation using Python, SQL, and Power BI dashboards.
                     </p>
 
-                    <div class="project-highlights">
-                        <div class="highlight-item">
-                            <strong>Quantitative Risk Modeling:</strong> Stratified customer & transaction profiles into tiered risk bands aligned with central bank mandates.
+                    <div class="project-spec-list">
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Risk Stratification:</strong> Categorized customer and transactional profiles into tiered risk bands aligned with Central Bank mandates.</div>
                         </div>
-                        <div class="highlight-item">
-                            <strong>Operational Reporting:</strong> Automated recurring reports in Power BI & Excel, cutting turnaround time by 40%.
+                        <div class="spec-item">
+                            <span class="spec-icon">🔹</span>
+                            <div class="spec-text"><strong>Reporting Automation:</strong> Automated recurring operational reporting in Power BI and SQL, cutting turnaround time by 40%.</div>
                         </div>
                     </div>
                 </div>

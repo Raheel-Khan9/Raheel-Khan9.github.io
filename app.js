@@ -1,9 +1,10 @@
 /* ==========================================================================
    Raheel Ahmed Khan - Portfolio Interactive Logic & Sciency Motion Engine
-   - Custom Sciency Cyber Cursor & Hover Magnet
-   - Quantum Water Splash / Energy Ripple on Click & Touch
-   - Neural Particle Canvas Background
-   - Domain Switcher & Code Copy Helpers
+   - Electric Blue Sciency Cursor & Reticle
+   - Universal Click & Touch Quantum Splash (Laptops & Mobile)
+   - Ambient Blue Smoke Vapor Trail on Touch & Scroll
+   - Sciency Neural Canvas Background
+   - Domain Switcher
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '%c🔒 Raheel Ahmed Khan | CISM, SC-200, CCNA, Security+\n' +
         '%cIT & Information Security Professional • Applied AI & Solutions Engineering\n' +
         '%cRecruiter or Engineering Lead inspecting the source? Reach out directly at raheelkhan9@outlook.com',
-        'color: #06b6d4; font-size: 14px; font-weight: bold;',
+        'color: #00d2ff; font-size: 14px; font-weight: bold;',
         'color: #38bdf8; font-size: 12px;',
         'color: #94a3b8; font-size: 11px;'
     );
@@ -29,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.toggle('active');
         });
 
-        // Auto-close menu when clicking on any nav link
         navLinks.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileToggle.classList.remove('active');
@@ -65,22 +65,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Sciency Interactive Neural Network Background Animation
     initNeuralCanvas();
 
-    // 5. Custom Sciency Cursor (Desktop)
+    // 5. Electric Blue Sciency Cursor (Desktop / Laptops)
     initCustomCursor();
 
-    // 6. Quantum Splash / Water Ripple Effect on Click & Touch
-    initQuantumSplash();
+    // 6. Universal Quantum Splash Effect (Laptop Clicks + Mobile Taps)
+    initUniversalSplash();
+
+    // 7. Ambient Blue Smoke Vapor Trail (Touch, Scroll & Move)
+    initSmokeTrail();
 });
 
 /* ==========================================================================
-   Custom Sciency Cyber Pointer Tracker
+   Electric Blue Sciency Cyber Pointer
    ========================================================================== */
 function initCustomCursor() {
     const dot = document.getElementById('cursor-dot');
     const ring = document.getElementById('cursor-ring');
     if (!dot || !ring) return;
 
-    // Check if device supports fine hover (desktop/laptop)
     const isFinePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
     if (!isFinePointer) return;
 
@@ -93,18 +95,16 @@ function initCustomCursor() {
         mouseX = e.clientX;
         mouseY = e.clientY;
         dot.style.transform = `translate(${mouseX}px, ${mouseY}px) translate(-50%, -50%)`;
-    });
+    }, { passive: true });
 
-    // Smooth interpolated ring follow animation
     function renderRing() {
-        ringX += (mouseX - ringX) * 0.18;
-        ringY += (mouseY - ringY) * 0.18;
+        ringX += (mouseX - ringX) * 0.22;
+        ringY += (mouseY - ringY) * 0.22;
         ring.style.transform = `translate(${ringX}px, ${ringY}px) translate(-50%, -50%)`;
         requestAnimationFrame(renderRing);
     }
     renderRing();
 
-    // Hover Magnet Expansion on Interactive Elements
     const interactiveTargets = 'a, button, select, .domain-tab, .cert-card, .project-card, .timeline-card, .contact-item, input, textarea';
     document.querySelectorAll(interactiveTargets).forEach(el => {
         el.addEventListener('mouseenter', () => ring.classList.add('cursor-hover'));
@@ -113,11 +113,13 @@ function initCustomCursor() {
 }
 
 /* ==========================================================================
-   Quantum Splash / Water Ripple Effect (Click & Touch)
+   Universal Quantum Splash Effect (Reliable on Laptops & Mobile)
    ========================================================================== */
-function initQuantumSplash() {
+function initUniversalSplash() {
     function triggerSplash(x, y) {
-        // 1. Expanding Quantum Energy Ring
+        if (x === undefined || y === undefined || x === null || y === null) return;
+
+        // 1. Quantum Splash Wave
         const splash = document.createElement('div');
         splash.className = 'quantum-splash';
         splash.style.left = `${x}px`;
@@ -140,18 +142,68 @@ function initQuantumSplash() {
             sparkle.style.setProperty('--dy', dy);
             document.body.appendChild(sparkle);
 
-            setTimeout(() => sparkle.remove(), 600);
+            setTimeout(() => sparkle.remove(), 500);
         }
 
-        // Auto-remove splash element from DOM
-        setTimeout(() => splash.remove(), 700);
+        setTimeout(() => splash.remove(), 650);
     }
 
-    // Pointer event handles mouse click, stylus, and touch cleanly
-    window.addEventListener('pointerdown', (e) => {
-        // Skip if clicking inside select dropdowns to avoid visual interference
+    // Capture phase listener ensures clicks on buttons/links/cards always trigger splash on laptop
+    document.addEventListener('mousedown', (e) => {
         if (e.target && e.target.tagName === 'SELECT') return;
         triggerSplash(e.clientX, e.clientY);
+    }, true);
+
+    // Touch support for phones & tablets
+    document.addEventListener('touchstart', (e) => {
+        if (e.touches && e.touches[0]) {
+            triggerSplash(e.touches[0].clientX, e.touches[0].clientY);
+        }
+    }, { passive: true });
+}
+
+/* ==========================================================================
+   Ambient Blue Smoke Vapor Trail (Touch & Scroll)
+   ========================================================================== */
+function initSmokeTrail() {
+    let lastEmitTime = 0;
+    const emitInterval = 45; // Emit max once every 45ms (smooth 60fps)
+
+    function emitSmoke(x, y) {
+        const now = Date.now();
+        if (now - lastEmitTime < emitInterval) return;
+        lastEmitTime = now;
+
+        const puff = document.createElement('div');
+        puff.className = 'smoke-puff';
+        const size = Math.random() * 24 + 30; // 30px to 54px diameter
+        puff.style.width = `${size}px`;
+        puff.style.height = `${size}px`;
+        puff.style.left = `${x}px`;
+        puff.style.top = `${y}px`;
+
+        document.body.appendChild(puff);
+        setTimeout(() => puff.remove(), 550);
+    }
+
+    // Touch drag / move on phone
+    window.addEventListener('touchmove', (e) => {
+        if (e.touches && e.touches[0]) {
+            emitSmoke(e.touches[0].clientX, e.touches[0].clientY);
+        }
+    }, { passive: true });
+
+    // Scroll motion smoke emitter
+    let lastScrollY = window.scrollY;
+    window.addEventListener('scroll', () => {
+        const currentY = window.scrollY;
+        if (Math.abs(currentY - lastScrollY) > 8) {
+            lastScrollY = currentY;
+            // Emit gentle ambient smoke near center/touch area
+            const posX = window.innerWidth * (0.3 + Math.random() * 0.4);
+            const posY = window.innerHeight * 0.5 + (Math.random() * 100 - 50);
+            emitSmoke(posX, posY);
+        }
     }, { passive: true });
 }
 
@@ -167,7 +219,7 @@ function initNeuralCanvas() {
     let width, height;
     let particles = [];
     const isMobile = window.innerWidth < 768;
-    const particleCount = isMobile ? 26 : 52;
+    const particleCount = isMobile ? 24 : 50;
     const maxDistance = isMobile ? 85 : 125;
 
     function resize() {
@@ -182,8 +234,8 @@ function initNeuralCanvas() {
         constructor() {
             this.x = Math.random() * width;
             this.y = Math.random() * height;
-            this.vx = (Math.random() - 0.5) * 0.4;
-            this.vy = (Math.random() - 0.5) * 0.4;
+            this.vx = (Math.random() - 0.5) * 0.38;
+            this.vy = (Math.random() - 0.5) * 0.38;
             this.radius = Math.random() * 1.5 + 1;
         }
 
@@ -201,7 +253,7 @@ function initNeuralCanvas() {
         draw() {
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-            ctx.fillStyle = '#06b6d4';
+            ctx.fillStyle = '#00d2ff';
             ctx.fill();
         }
     }
@@ -227,7 +279,7 @@ function initNeuralCanvas() {
                     ctx.beginPath();
                     ctx.moveTo(particles[i].x, particles[i].y);
                     ctx.lineTo(particles[j].x, particles[j].y);
-                    ctx.strokeStyle = `rgba(6, 182, 212, ${opacity})`;
+                    ctx.strokeStyle = `rgba(0, 210, 255, ${opacity})`;
                     ctx.lineWidth = 0.8;
                     ctx.stroke();
                 }
@@ -271,59 +323,4 @@ function switchDomain(domain) {
             card.classList.add('hidden');
         }
     });
-}
-
-/* ==========================================================================
-   Generic Snippet Copy Helper
-   ========================================================================== */
-function copySnippet(elementId, button) {
-    const codeElem = document.getElementById(elementId);
-    if (!codeElem) return;
-
-    const textToCopy = codeElem.innerText;
-    navigator.clipboard.writeText(textToCopy).then(() => {
-        const originalText = button.innerText;
-        button.innerText = 'Copied!';
-        button.style.background = '#10b981';
-        button.style.color = '#000';
-
-        setTimeout(() => {
-            button.innerText = originalText;
-            button.style.background = '';
-            button.style.color = '';
-        }, 2000);
-    }).catch(err => {
-        console.error('Failed to copy code: ', err);
-    });
-}
-
-function copyKQL(button) {
-    copySnippet('kql-code', button);
-}
-
-/* ==========================================================================
-   BIA Disaster Recovery Estimator
-   ========================================================================== */
-function calculateRTO() {
-    const level = document.getElementById('crit-level').value;
-    const rtoElem = document.getElementById('rto-val');
-    const rpoElem = document.getElementById('rpo-val');
-
-    switch (level) {
-        case 'tier1':
-            rtoElem.innerText = '< 15 Minutes';
-            rpoElem.innerText = 'Zero (Continuous Sync / 3-2-1 Mirror)';
-            break;
-        case 'tier2':
-            rtoElem.innerText = '< 1 Hour';
-            rpoElem.innerText = '< 15 Minutes (Snapshot Replication)';
-            break;
-        case 'tier3':
-            rtoElem.innerText = '< 4 Hours';
-            rpoElem.innerText = '< 24 Hours (Daily Immutable Offsite Backup)';
-            break;
-        default:
-            rtoElem.innerText = '< 15 Minutes';
-            rpoElem.innerText = 'Zero (Continuous Sync)';
-    }
 }
