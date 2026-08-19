@@ -49,7 +49,7 @@
 | **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
 | **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
 | **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
-| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Algorithms, Distributed Systems & Applied AI) | Honors Graduate |
+| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 | Top of Class |
 
 ---
 
