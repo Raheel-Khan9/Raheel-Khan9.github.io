@@ -1,10 +1,10 @@
 # 🛡️ Raheel Ahmed Khan (CISM) | IT & Information Security Portfolio
 
 <div align="center">
-  <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" width="180" style="border-radius: 50%; border: 3px solid #06b6d4;" />
+  <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" width="160" style="border-radius: 50%; border: 3px solid #06b6d4;" />
   <br />
   <h3>Raheel Ahmed Khan (CISM)</h3>
-  <p><strong>IT & Information Security Professional | GRC, Cloud SecOps & Data-Driven Operations</strong></p>
+  <p><strong>IT & Information Security Professional | GRC, Cloud SecOps, Applied AI & Solutions Engineering</strong></p>
   <p>Dubai / Abu Dhabi, UAE • +971 55 413 3764 • <a href="mailto:raheelkhan9@outlook.com">raheelkhan9@outlook.com</a> • <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn</a></p>
 </div>
 
@@ -14,33 +14,33 @@
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-10b981?style=for-the-badge&logo=cisco)](https://linkedin.com/in/raheelkhanofficial7)
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--701-ef4444?style=for-the-badge&logo=comptia)](https://linkedin.com/in/raheelkhanofficial7)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-Cybersecurity_Pro-f59e0b?style=for-the-badge&logo=googlecloud)](https://linkedin.com/in/raheelkhanofficial7)
-[![Location](https://img.shields.io/badge/Location-Dubai%20%2F%20Abu%20Dhabi%2C%20UAE-a855f7?style=for-the-badge&logo=googlemaps)](https://linkedin.com/in/raheelkhanofficial7)
+[![Academic](https://img.shields.io/badge/Academic-B.Sc._CS_(CGPA_3.79)-a855f7?style=for-the-badge)](https://linkedin.com/in/raheelkhanofficial7)
 
-> **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
+> **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
 ---
 
-## 📊 Executive Value Delivered Across 6 Key Domains
+## 📊 Executive Capabilities Across 6 Core Domains
 
 ```
 ┌────────────────────────────────────────┬────────────────────────────────────────┐
-│ 1. GRC & Regulatory Compliance         │ 2. SOC & Incident Response             │
+│ 1. GRC & Regulatory Compliance         │ 2. SOC & Threat Defense                │
 │ • CBUAE (Central Bank) & ADHICS Audits │ • Microsoft Sentinel & CrowdStrike EDR │
 │ • BCP, DRP (3-2-1 Mandate), BIA & TPRM │ • KQL Threat Hunting & Logic Apps SOAR │
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 3. IT & Cloud Security                 │ 4. Enterprise Systems Operations       │
-│ • IAM/PAM, PIM (Just-In-Time Access)   │ • Windows Server, Active Directory GPO │
-│ • Entra ID, Conditional Access & MFA   │ • FortiGate Firewalls & Veeam 3-2-1    │
+│ 3. Artificial Intelligence & ML        │ 4. DevOps & Cloud Solutions            │
+│ • Computer Vision & Facial Landmarks   │ • Microsoft Azure, Docker & Kubernetes │
+│ • Multi-Stage Neural Emotion Modeling  │ • GitLab CLI, YAML & CI/CD Pipelines   │
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 5. Business & Data Analytics           │ 6. Enterprise Applications & CRM/ERP   │
-│ • Power BI, SQL, Python ETL Pipelines  │ • Zoho, Salesforce, ManageEngine MDM   │
-│ • Quantitative AML/CFT Risk Modeling   │ • Jira Service Management & ITIL SLA   │
+│ 5. Business & Data Analytics           │ 6. Enterprise Systems & Networks       │
+│ • Power BI, SQL, Python ETL Pipelines  │ • Cisco CCNA Routing & Switching       │
+│ • Quantitative AML/CFT Risk Modeling   │ • FortiGate Firewalls & Veeam 3-2-1    │
 └────────────────────────────────────────┴────────────────────────────────────────┘
 ```
 
 ---
 
-## 📜 Verified Industry Certifications & Accreditations
+## 📜 Verified Industry Certifications & Academic Credentials
 
 | Credential | Issuer | Scope & Domain | Validity |
 |---|---|---|---|
@@ -49,9 +49,25 @@
 | **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
 | **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
 | **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
-| **British Council IELTS Academic** | British Council | Band 7.5 (C1 Fluent English Proficient) | Certified |
-| **Registered UAE Driver's License** | UAE RTA | Valid & Active (Dubai / Abu Dhabi) | Active |
-| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 | Completed Feb 2021 |
+| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Algorithms, Distributed Systems & Applied AI) | Honors Graduate |
+
+---
+
+## 🤖 Featured Technical & AI Project Artifacts
+
+### 1. Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine
+- **Stack:** Python, TensorFlow, PyTorch, OpenCV, Google Colab Notebooks
+- **Architecture:** Two cascading deep neural networks. Stage 1 localizes 68 fiducial facial landmarks (eyes, brows, mouth); Stage 2 analyzes geometric vectors to infer emotional states (Joy, Anger, Surprise, Sadness, Neutral). Built through rigorous independent research and university/industry study.
+
+### 2. Enterprise Microservices CI/CD & Kubernetes Solution Pipeline
+- **Stack:** Microsoft Azure, Docker, Kubernetes (AKS), GitLab CLI, YAML, Linux
+- **Architecture:** Containerized multi-stage microservices deployment with automated health probes, canary rollouts, and GitLab CI/CD automation.
+
+### 3. UAE Multi-Regulatory Compliance Engine & Gap Assessment Matrix
+- **Stack:** CBUAE Regulatory Framework, ADHICS 11 Domains, ISO/IEC 27001:2022, JSON Schema
+
+### 4. Enterprise Threat Hunting & Detection Engineering Playbooks
+- **Stack:** Microsoft Sentinel (SC-200), CrowdStrike Falcon, KQL, Logic Apps SOAR
 
 ---
 
@@ -92,11 +108,11 @@
 ## 🛠️ Technical & Methodological Arsenal
 
 - **Security Operations:** Microsoft Sentinel, CrowdStrike Falcon, Wazuh, KQL Hunting, UEBA, SOAR / Logic Apps, MITRE ATT&CK.
-- **Cloud & Identity:** Microsoft Azure, AWS, GCP, Entra ID (Azure AD), Conditional Access, PIM, MFA, Microsoft 365 Security, Defender for Cloud/Office 365, PAM360.
-- **Systems & Network Infrastructure:** Windows Server, Active Directory GPOs, Cisco Routers/Switches, FortiGate Firewalls, VPN (IPsec/SSL), Veeam Backup 3-2-1.
+- **Artificial Intelligence & ML:** Python, TensorFlow, PyTorch, OpenCV, Deep Neural Networks, Facial Landmark Extraction, Google Colab.
+- **Cloud & DevOps:** Microsoft Azure, Docker, Kubernetes (AKS/K8s), YAML, GitLab CLI, Terraform, Entra ID (Azure AD), Conditional Access, PIM, MFA.
+- **Systems & Infrastructure:** Cisco Routers/Switches (CCNA), Windows Server, Active Directory GPOs, FortiGate Firewalls, Veeam 3-2-1.
 - **Governance & Standards:** CBUAE Mandates, ADHICS Standards, ISO 27001, BCP/DRP, Business Impact Analysis (BIA), TPRM, UAE PDPL.
-- **Data Analysis & Tooling:** SQL, Python (Pandas/Automations), Microsoft Power BI, PowerQuery, Advanced Excel, Tableau.
-- **Project & Service Management:** MS Teams, Jira, Asana, Trello, SLA Management, Confluence, ITIL Foundation Principles, Agile/Scrum Workflows.
+- **Data & Business Analytics:** Microsoft Power BI, SQL, Python, PowerQuery, Advanced Excel Modeling.
 
 ---
 
@@ -105,4 +121,4 @@
 - **Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Phone:** [+971 55 413 3764](tel:+971554133764)
 - **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
-- **Location:** Dubai / Abu Dhabi, United Arab Emirates (Available on Short Notice)
+- **Location:** Dubai / Abu Dhabi, United Arab Emirates
