@@ -1,5 +1,9 @@
 /* ==========================================================================
-   Raheel Ahmed Khan - Portfolio Interactive Logic & Sciency Neural Animation
+   Raheel Ahmed Khan - Portfolio Interactive Logic & Sciency Motion Engine
+   - Custom Sciency Cyber Cursor & Hover Magnet
+   - Quantum Water Splash / Energy Ripple on Click & Touch
+   - Neural Particle Canvas Background
+   - Domain Switcher & Code Copy Helpers
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -60,9 +64,100 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 4. Sciency Interactive Neural Network Background Animation
     initNeuralCanvas();
+
+    // 5. Custom Sciency Cursor (Desktop)
+    initCustomCursor();
+
+    // 6. Quantum Splash / Water Ripple Effect on Click & Touch
+    initQuantumSplash();
 });
 
-// Sciency Blueish Particle / Neural Canvas Animation
+/* ==========================================================================
+   Custom Sciency Cyber Pointer Tracker
+   ========================================================================== */
+function initCustomCursor() {
+    const dot = document.getElementById('cursor-dot');
+    const ring = document.getElementById('cursor-ring');
+    if (!dot || !ring) return;
+
+    // Check if device supports fine hover (desktop/laptop)
+    const isFinePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if (!isFinePointer) return;
+
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let ringX = mouseX;
+    let ringY = mouseY;
+
+    window.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        dot.style.transform = `translate(${mouseX}px, ${mouseY}px) translate(-50%, -50%)`;
+    });
+
+    // Smooth interpolated ring follow animation
+    function renderRing() {
+        ringX += (mouseX - ringX) * 0.18;
+        ringY += (mouseY - ringY) * 0.18;
+        ring.style.transform = `translate(${ringX}px, ${ringY}px) translate(-50%, -50%)`;
+        requestAnimationFrame(renderRing);
+    }
+    renderRing();
+
+    // Hover Magnet Expansion on Interactive Elements
+    const interactiveTargets = 'a, button, select, .domain-tab, .cert-card, .project-card, .timeline-card, .contact-item, input, textarea';
+    document.querySelectorAll(interactiveTargets).forEach(el => {
+        el.addEventListener('mouseenter', () => ring.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave', () => ring.classList.remove('cursor-hover'));
+    });
+}
+
+/* ==========================================================================
+   Quantum Splash / Water Ripple Effect (Click & Touch)
+   ========================================================================== */
+function initQuantumSplash() {
+    function triggerSplash(x, y) {
+        // 1. Expanding Quantum Energy Ring
+        const splash = document.createElement('div');
+        splash.className = 'quantum-splash';
+        splash.style.left = `${x}px`;
+        splash.style.top = `${y}px`;
+        document.body.appendChild(splash);
+
+        // 2. Micro Sparkles Burst (4 lightweight particles)
+        for (let i = 0; i < 4; i++) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'quantum-sparkle';
+            sparkle.style.left = `${x}px`;
+            sparkle.style.top = `${y}px`;
+            
+            const angle = (Math.PI * 2 / 4) * i + (Math.random() * 0.5);
+            const distance = Math.random() * 32 + 20;
+            const dx = `${Math.cos(angle) * distance}px`;
+            const dy = `${Math.sin(angle) * distance}px`;
+            
+            sparkle.style.setProperty('--dx', dx);
+            sparkle.style.setProperty('--dy', dy);
+            document.body.appendChild(sparkle);
+
+            setTimeout(() => sparkle.remove(), 600);
+        }
+
+        // Auto-remove splash element from DOM
+        setTimeout(() => splash.remove(), 700);
+    }
+
+    // Pointer event handles mouse click, stylus, and touch cleanly
+    window.addEventListener('pointerdown', (e) => {
+        // Skip if clicking inside select dropdowns to avoid visual interference
+        if (e.target && e.target.tagName === 'SELECT') return;
+        triggerSplash(e.clientX, e.clientY);
+    }, { passive: true });
+}
+
+/* ==========================================================================
+   Sciency Neural Particle Canvas
+   ========================================================================== */
 function initNeuralCanvas() {
     const canvas = document.getElementById('neural-canvas');
     if (!canvas) return;
@@ -72,8 +167,8 @@ function initNeuralCanvas() {
     let width, height;
     let particles = [];
     const isMobile = window.innerWidth < 768;
-    const particleCount = isMobile ? 28 : 55;
-    const maxDistance = isMobile ? 90 : 130;
+    const particleCount = isMobile ? 26 : 52;
+    const maxDistance = isMobile ? 85 : 125;
 
     function resize() {
         width = canvas.width = window.innerWidth;
@@ -87,8 +182,8 @@ function initNeuralCanvas() {
         constructor() {
             this.x = Math.random() * width;
             this.y = Math.random() * height;
-            this.vx = (Math.random() - 0.5) * 0.45;
-            this.vy = (Math.random() - 0.5) * 0.45;
+            this.vx = (Math.random() - 0.5) * 0.4;
+            this.vy = (Math.random() - 0.5) * 0.4;
             this.radius = Math.random() * 1.5 + 1;
         }
 
@@ -115,7 +210,6 @@ function initNeuralCanvas() {
         particles.push(new Particle());
     }
 
-    let animationFrameId;
     function animate() {
         ctx.clearRect(0, 0, width, height);
 
@@ -140,19 +234,19 @@ function initNeuralCanvas() {
             }
         }
 
-        animationFrameId = requestAnimationFrame(animate);
+        requestAnimationFrame(animate);
     }
 
     animate();
 }
 
-// Interactive Domain Filter Switcher
+/* ==========================================================================
+   Domain Filter Switcher
+   ========================================================================== */
 function switchDomain(domain) {
-    // 1. Update tab active states
     const tabs = document.querySelectorAll('.domain-tab');
     tabs.forEach(tab => tab.classList.remove('active'));
     
-    // Find clicked tab and activate
     const activeTab = Array.from(tabs).find(t => {
         const onclickAttr = t.getAttribute('onclick');
         return onclickAttr && onclickAttr.includes(`'${domain}'`);
@@ -161,7 +255,6 @@ function switchDomain(domain) {
         activeTab.classList.add('active');
     }
 
-    // 2. Filter domain cards with subtle micro-fade
     const cards = document.querySelectorAll('.domain-card');
     cards.forEach(card => {
         const cardDomain = card.getAttribute('data-domain');
@@ -180,7 +273,9 @@ function switchDomain(domain) {
     });
 }
 
-// Generic Copy to Clipboard Helper
+/* ==========================================================================
+   Generic Snippet Copy Helper
+   ========================================================================== */
 function copySnippet(elementId, button) {
     const codeElem = document.getElementById(elementId);
     if (!codeElem) return;
@@ -202,12 +297,13 @@ function copySnippet(elementId, button) {
     });
 }
 
-// Backward Compatibility KQL Copy
 function copyKQL(button) {
     copySnippet('kql-code', button);
 }
 
-// BIA Disaster Recovery Estimator
+/* ==========================================================================
+   BIA Disaster Recovery Estimator
+   ========================================================================== */
 function calculateRTO() {
     const level = document.getElementById('crit-level').value;
     const rtoElem = document.getElementById('rto-val');

@@ -1,7 +1,7 @@
 /* ==========================================================================
    Raheel Ahmed Khan - Responsive Portfolio Stylesheet
    Theme: Precision Dark Cyber / Scientific Blue Modern Aesthetics
-   Fully Responsive for: iOS, Android, Tablets, Laptops & Desktops
+   Custom Sciency Pointer & Quantum Splash Effects
    ========================================================================== */
 
 :root {
@@ -57,6 +57,114 @@ body {
     overflow-x: hidden;
     width: 100%;
     position: relative;
+}
+
+/* ==========================================================================
+   Custom Sciency Cyber Pointer (Desktop Only)
+   ========================================================================== */
+@media (hover: hover) and (pointer: fine) {
+    .cursor-dot {
+        width: 7px;
+        height: 7px;
+        background: #06b6d4;
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 99999;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 10px #06b6d4, 0 0 18px #06b6d4;
+        transition: opacity 0.2s ease, transform 0.08s ease;
+    }
+
+    .cursor-ring {
+        width: 30px;
+        height: 30px;
+        border: 1.5px solid rgba(6, 182, 212, 0.55);
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 99998;
+        transform: translate(-50%, -50%);
+        transition: width 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+                    height 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+                    border-color 0.25s ease, 
+                    background-color 0.25s ease, 
+                    box-shadow 0.25s ease;
+    }
+
+    .cursor-ring.cursor-hover {
+        width: 46px;
+        height: 46px;
+        border-color: #38bdf8;
+        background: rgba(6, 182, 212, 0.08);
+        box-shadow: 0 0 16px rgba(6, 182, 212, 0.3);
+    }
+}
+
+@media (hover: none) or (pointer: coarse) {
+    .cursor-dot, .cursor-ring {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   Sciency Quantum Energy Splash / Water Ripple Effect
+   ========================================================================== */
+.quantum-splash {
+    position: fixed;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 99997;
+    animation: quantumSplash 0.65s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+    border: 1.5px solid rgba(6, 182, 212, 0.85);
+    box-shadow: 0 0 18px rgba(6, 182, 212, 0.45), inset 0 0 12px rgba(56, 189, 248, 0.35);
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.22) 0%, rgba(56, 189, 248, 0.06) 50%, transparent 80%);
+}
+
+@keyframes quantumSplash {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    50% {
+        opacity: 0.85;
+    }
+    100% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.quantum-sparkle {
+    position: fixed;
+    pointer-events: none;
+    width: 3.5px;
+    height: 3.5px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #06b6d4;
+    z-index: 99997;
+    animation: sparkleFade 0.55s ease-out forwards;
+}
+
+@keyframes sparkleFade {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0.2);
+    }
 }
 
 /* Sciency Neural Background Canvas */
@@ -354,8 +462,8 @@ img {
 
 @keyframes pulse {
     0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.7); }
-    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(6, 182, 212, 0); }
-    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(6, 182, 212, 0); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
 }
 
 .meta-tag {
