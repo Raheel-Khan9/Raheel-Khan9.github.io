@@ -4,13 +4,14 @@
   <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" width="160" style="border-radius: 50%; border: 3px solid #00d2ff;" />
   <br />
   <h3>Raheel Ahmed Khan (CISM)</h3>
-  <p><strong>IT & Information Security Professional | GRC, Cloud SecOps, Applied AI & Business Operations</strong></p>
+  <p><strong>IT & Information Security Professional | GRC, Cloud SecOps, Applied AI & Solutions Engineering</strong></p>
   <p>
-    <a href="https://github.com/Raheel-Khan9">GitHub: @Raheel-Khan9</a> • 
-    <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn: raheelkhanofficial7</a> • 
-    <a href="https://x.com/Shaheen_4468">Twitter / X: @Shaheen_4468</a> • 
-    <a href="mailto:raheelkhan9@outlook.com">raheelkhan9@outlook.com</a> • 
-    <a href="mailto:raheelkhan17202@gmail.com">raheelkhan17202@gmail.com</a> • 
+    <a href="https://github.com/Raheel-Khan9">GitHub</a> • 
+    <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn</a> • 
+    <a href="https://x.com/Shaheen_4468">X (Twitter)</a> • 
+    <a href="https://instagram.com/raheelkhanbuildz">Instagram</a> • 
+    <a href="mailto:raheelkhan9@outlook.com">Primary Email</a> • 
+    <a href="mailto:raheelkhan17202@gmail.com">Secondary Email</a> • 
     <a href="tel:+971554133764">+971 55 413 3764</a>
   </p>
 </div>
@@ -19,31 +20,82 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Raheel--Khan9-181717?style=for-the-badge&logo=github)](https://github.com/Raheel-Khan9)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/raheelkhanofficial7)
 [![X](https://img.shields.io/badge/X-@Shaheen__4468-000000?style=for-the-badge&logo=x)](https://x.com/Shaheen_4468)
+[![Instagram](https://img.shields.io/badge/Instagram-@raheelkhanbuildz-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/raheelkhanbuildz)
 [![CISM](https://img.shields.io/badge/ISACA-CISM_Certified-00d2ff?style=for-the-badge&logo=isaca)](https://linkedin.com/in/raheelkhanofficial7)
 [![SC-200](https://img.shields.io/badge/Microsoft-SC--200_Certified-3b82f6?style=for-the-badge&logo=microsoft)](https://linkedin.com/in/raheelkhanofficial7)
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-10b981?style=for-the-badge&logo=cisco)](https://linkedin.com/in/raheelkhanofficial7)
 [![Academic](https://img.shields.io/badge/Academic-B.Sc._CS_(CGPA_3.79)-a855f7?style=for-the-badge)](https://linkedin.com/in/raheelkhanofficial7)
 
-> **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** helping organizations build secure, compliant, and reliable IT operations. Holds globally recognized credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
+> **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
 ---
 
-## 📊 Core Capabilities Across 6 Key Areas
+## ⚡ Architecture Overview (Dual Deployment Model)
+
+This repository is architected to support **both**:
+1. **🚀 Direct GitHub Pages Hosting (`Raheel-Khan9.github.io`)**: Instant, static, zero-build deployment via root `index.html`, `styles.css`, and `app.js`.
+2. **⚛️ Full MERN Stack Modern Architecture**: Modern **React + Vite** frontend (`client/`) paired with an **Express & Node.js + MongoDB** backend API (`server/`).
+
+```
+raheel-portfolio/
+├── client/                     # ⚛️ React 18 + Vite Frontend
+│   ├── public/                 # Static assets (profile.jpg)
+│   ├── src/
+│   │   ├── components/         # Modular React Components (Hero, Navbar, Domains, etc.)
+│   │   ├── App.jsx             # Main Application Layout
+│   │   ├── main.jsx            # React Entrypoint
+│   │   └── index.css           # Electric Blue Sciency Styling
+│   ├── package.json
+│   └── vite.config.js
+├── server/                     # 🟢 Node.js & Express REST API Backend
+│   ├── models/                 # MongoDB Message Schema
+│   ├── routes/                 # Contact & Health Check Routes
+│   ├── server.js               # Express Server & DB Connection
+│   └── package.json
+├── index.html                  # 🌐 Instant GitHub Pages Entrypoint
+├── styles.css                  # Production Stylesheet
+├── app.js                      # Particle Engine, Vapor Trail & Universal Splash
+├── profile.jpg                 # Verified Executive Headshot
+└── README.md
+```
+
+---
+
+## 💻 How to Run the MERN Stack Locally
+
+### 1. Run the React Frontend (`client`)
+```bash
+cd client
+npm install
+npm run dev
+```
+*Your React app will open at `http://localhost:3000`.*
+
+### 2. Run the Node.js / Express Backend (`server`)
+```bash
+cd server
+npm install
+npm run dev
+```
+*Your API server will run at `http://localhost:5000`.*
+
+---
+
+## 📊 Core Capabilities Across 6 Domains (Plain English)
 
 ```
 ┌────────────────────────────────────────┬────────────────────────────────────────┐
-│ 1. Governance, Risk & Compliance (GRC) │ 2. Security Operations & Threat Defense│
-│ • Passed UAE Central Bank (CBUAE) &    │ • Real-time monitoring & alert triage  │
-│   Healthcare (ADHICS) audits           │   using Microsoft Sentinel & CrowdStrike│
-│ • Business Continuity & 3-2-1 Backups  │ • Automated incident response playbooks│
+│ 1. Security & Compliance (GRC)         │ 2. Threat Monitoring & SOC             │
+│ • Pass UAE Central Bank & Health Audits│ • 24/7 Threat Detection & Fast Response│
+│ • Emergency Backup (3-2-1) & BCP Plans │ • Microsoft Sentinel SIEM & CrowdStrike│
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 3. Applied AI & Machine Learning       │ 4. Cloud Infrastructure & DevOps       │
-│ • Deep neural emotion detection models │ • Automated Azure & Kubernetes pipelines│
-│ • Computer vision & landmark tracking  │ • Docker containerization & GitLab CI  │
+│ 3. Artificial Intelligence & Vision    │ 4. Cloud & DevOps Solutions            │
+│ • Deep Neural Network Emotion Models   │ • Microsoft Azure, Docker & Kubernetes │
+│ • Facial Landmark Geometry Extraction  │ • Automated GitLab CI/CD Deployments   │
 ├────────────────────────────────────────┼────────────────────────────────────────┤
-│ 5. Business & Data Analytics           │ 6. Enterprise Systems & Networks       │
-│ • Power BI dashboards & SQL reporting  │ • Cisco enterprise routing & switching │
-│ • Automated operational reporting      │ • 250+ user support & device management│
+│ 5. Business & Data Analytics           │ 6. IT Infrastructure & Networks        │
+│ • Power BI Dashboards & SQL Reporting  │ • Cisco CCNA Routing & Switching       │
+│ • Automated AML/CFT Risk Scoring       │ • FortiGate Firewalls & User Support   │
 └────────────────────────────────────────┴────────────────────────────────────────┘
 ```
 
@@ -51,13 +103,13 @@
 
 ## 📜 Verified Industry Certifications & Academic Degree
 
-| Credential | Issuer | What It Validates | Validity |
+| Credential | Issuer | Scope & Domain | Validity |
 |---|---|---|---|
-| **CISM® (Certified Information Security Manager)** | ISACA | Information Security Leadership, Risk Management & Incident Handling | Valid to July 2026 |
-| **Microsoft Certified: Security Operations Analyst (SC-200)** | Microsoft | Microsoft Sentinel SIEM, Defender for Cloud, KQL Threat Hunting | Valid to July 2026 |
-| **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Fundamentals, Threats, Cryptography & Defense | Valid to Sept 2025 |
-| **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | Enterprise Network Routing, Switching, VLANs & Security | Issued April 2024 |
-| **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, Access Control Policies & Posture | Valid to March 2026 |
+| **CISM® (Certified Information Security Manager)** | ISACA | Information Security Governance, Risk Management, Incident Response | Valid to July 2026 |
+| **Microsoft Certified: Security Operations Analyst (SC-200)** | Microsoft | Microsoft Sentinel, Microsoft Defender for Cloud/Endpoint, KQL | Valid to July 2026 |
+| **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
+| **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
+| **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
 | **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Algorithms, Distributed Systems & Applied AI) | Honors Graduate |
 
 ---
@@ -65,33 +117,33 @@
 ## 🤖 Featured Technical & AI Projects with Repositories
 
 ### 1. [Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine](https://github.com/Raheel-Khan9/emotion-recognition-deeplearning)
-- **What It Does:** A two-stage neural network built in Python that locates 68 face markers and classifies human emotions (Joy, Anger, Surprise, Sadness, Neutral) in real time.
-- **Tools:** Python, TensorFlow, PyTorch, OpenCV, Google Colab Notebooks
+- **Stack:** Python, TensorFlow, PyTorch, OpenCV, Google Colab
+- **Description:** AI computer vision program that detects a person's face, extracts 68 facial landmark coordinates, and accurately predicts emotional states (Joy, Anger, Surprise, Sadness, Neutral).
 - **Repository:** [`Raheel-Khan9/emotion-recognition-deeplearning`](https://github.com/Raheel-Khan9/emotion-recognition-deeplearning)
 
-### 2. [Enterprise Microservices CI/CD & Kubernetes Solution Pipeline](https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline)
-- **What It Does:** Automated cloud pipeline that packages microservices into Docker containers and deploys them to Azure Kubernetes with automated health checks and zero downtime.
-- **Tools:** Microsoft Azure, Docker, Kubernetes (AKS), GitLab CLI, YAML
+### 2. [Enterprise Cloud Deployment & Kubernetes Solution Pipeline](https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline)
+- **Stack:** Microsoft Azure, Docker, Kubernetes (AKS), GitLab CI/CD, YAML
+- **Description:** Automated cloud deployment system that packages business software into secure containers and deploys them to Kubernetes with zero downtime.
 - **Repository:** [`Raheel-Khan9/azure-k8s-cicd-pipeline`](https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline)
 
-### 3. [UAE Multi-Regulatory Compliance Engine & Gap Assessment Matrix](https://github.com/Raheel-Khan9/uae-grc-compliance-matrix)
-- **What It Does:** Unified compliance roadmap cross-referencing 150+ security requirements across UAE Central Bank (CBUAE), Healthcare (ADHICS), and ISO 27001 standards.
-- **Tools:** CBUAE Framework, ADHICS 11 Domains, ISO/IEC 27001:2022, JSON Schema
+### 3. [UAE Government & Banking Security Compliance Framework](https://github.com/Raheel-Khan9/uae-grc-compliance-matrix)
+- **Stack:** CBUAE Regulatory Framework, ADHICS 11 Domains, ISO 27001
+- **Description:** Structured compliance engine mapping controls to UAE Central Bank and Abu Dhabi Health standards, reducing audit prep time by 40%.
 - **Repository:** [`Raheel-Khan9/uae-grc-compliance-matrix`](https://github.com/Raheel-Khan9/uae-grc-compliance-matrix)
 
-### 4. [Enterprise Threat Hunting & Detection Engineering Playbooks](https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks)
-- **What It Does:** High-fidelity threat detection rules and automated response playbooks in Microsoft Sentinel to detect impossible travel and suspicious account takeovers.
-- **Tools:** Microsoft Sentinel (SC-200), CrowdStrike Falcon, KQL, Logic Apps SOAR
+### 4. [Real-Time Threat Detection & Automated Incident Playbooks](https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks)
+- **Stack:** Microsoft Sentinel (SC-200), CrowdStrike Falcon, KQL
+- **Description:** Custom threat hunting queries and automated alert playbooks that detect hacker attacks and instantly isolate compromised devices.
 - **Repository:** [`Raheel-Khan9/sentinel-threat-detection-playbooks`](https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks)
 
-### 5. [Disaster Recovery & Business Impact Analysis (BIA) Framework](https://github.com/Raheel-Khan9/bcp-drp-bia-framework)
-- **What It Does:** Business continuity and 3-2-1 backup architecture guaranteeing critical transactional database recovery within 15 minutes and zero data loss.
-- **Tools:** DHA GC 05-2026, CBUAE 3-2-1 Directives, BIA Mathematical Models
+### 5. [Disaster Recovery & Business Continuity Framework](https://github.com/Raheel-Khan9/bcp-drp-bia-framework)
+- **Stack:** Emergency Backup, CBUAE 3-2-1 Directive, BIA Models
+- **Description:** Step-by-step emergency disaster recovery plans ensuring critical databases can be restored in under 15 minutes with zero data loss.
 - **Repository:** [`Raheel-Khan9/bcp-drp-bia-framework`](https://github.com/Raheel-Khan9/bcp-drp-bia-framework)
 
-### 6. [AML/CFT Financial Risk Categorization & Operational Analytics](https://github.com/Raheel-Khan9/aml-cft-risk-analytics)
-- **What It Does:** Data models and automated Power BI dashboards stratifying transaction risk tiers for UAE Central Bank AML/CFT compliance reporting.
-- **Tools:** Power BI, SQL, Python, PowerQuery, Advanced Excel Modeling
+### 6. [Financial Anti-Money Laundering (AML) & Risk Analytics](https://github.com/Raheel-Khan9/aml-cft-risk-analytics)
+- **Stack:** Power BI, SQL, Python, AML/CFT Risk Modeling
+- **Description:** Automated data models that analyze financial transactions, flag suspicious behavior, and generate instant Power BI reports.
 - **Repository:** [`Raheel-Khan9/aml-cft-risk-analytics`](https://github.com/Raheel-Khan9/aml-cft-risk-analytics)
 
 ---
@@ -100,42 +152,43 @@
 
 ### IT Systems Administrator
 **Doo Group (Doo ME Insurance Broker LLC) — Dubai, UAE** | *Aug 2024 – Present*  
-*(Regulated Financial Services Brokerage | 250+ Enterprise Users)*
-- **Operational Support:** Provided L2/L3 technical support to 250+ employees for core CRM brokerage software, ensuring smooth daily business transactions.
-- **Audit Success:** Authored DHA GC 05-2026 Business Continuity plans and completed Central Bank (CBUAE) AML/CFT risk categorization ahead of audit deadlines with zero penalties.
-- **Disaster Recovery:** Engineered a 3-2-1 backup architecture with Business Impact Analysis to guarantee rapid data recovery during outages.
-- **Cloud Security & Identity:** Hardened Microsoft 365 and Entra ID for 250+ staff using Multi-Factor Authentication (MFA), Conditional Access, and Just-In-Time privileged access.
-- **Threat Monitoring:** Triaged security alerts using Microsoft Sentinel SIEM and CrowdStrike EDR with automated response playbooks.
-- **Operational Reporting:** Automated recurring management reports in Power BI, SQL, and Python, saving 40% of manual reporting time.
-- **Vendor Risk Management:** Established third-party vendor assessments to ensure external software providers meet strict security standards.
+*(Regulated Financial Services & Enterprise Brokerage | 250+ Users)*
+- **User Support:** Provided L2/L3 support to over 250+ staff for company operational CRM software, ensuring smooth brokerage operations.
+- **Government Audits:** Completed UAE Central Bank (CBUAE) and Dubai Health Authority security reviews with zero penalties.
+- **Disaster Recovery:** Built a comprehensive Disaster Recovery Plan with strict 3-2-1 backups, eliminating single points of failure.
+- **Cloud & Identity Defense:** Hardened Microsoft 365 and Entra ID for 250+ users with Multi-Factor Authentication (MFA) and Just-In-Time access (PIM).
+- **Threat Detection:** Managed Microsoft Sentinel SIEM and CrowdStrike Antivirus/EDR to monitor, investigate, and stop security alerts.
+- **Reporting Automation:** Automated company reporting using Python, SQL, and Power BI, cutting report turnaround time by 40%.
+- **Vendor Risk Management:** Established security assessments for third-party software and vendors to safeguard company data.
 
-### System Administrator (L2 Operations & Security)
+### System Administrator (Operations & Security)
 **Smile Link Dental Laboratory — Abu Dhabi, UAE** | *Apr 2023 – May 2024*  
-*(Healthcare Technology Provider | 50+ Clinical & CAD/CAM Workstations)*
-- **Healthcare Compliance:** Closed 100% of security gaps to pass Abu Dhabi Healthcare Information & Cyber Security (ADHICS) audits across medical portals.
-- **User & Device Management:** Managed Active Directory permissions and Group Policies; deployed ManageEngine Mobile Device Manager (MDM) to secure clinical workstations.
-- **Data Protection:** Managed offsite cloud backups using Veeam Cloud Backup, guaranteeing zero data loss for sensitive patient records.
-- **Performance Analytics:** Built Excel KPI tracking dashboards to monitor support tickets, reducing average resolution time by 25%.
+*(Healthcare & Clinical Technology Provider | 50+ Specialized CAD/CAM Users)*
+- **Healthcare Compliance:** Closed 100% of compliance requirements for Abu Dhabi Healthcare Information & Cyber Security (ADHICS) audits.
+- **Workplace Infrastructure:** Maintained office computers, user permissions, and Group Policy Objects (GPOs); enforced device security using ManageEngine Mobile Device Manager.
+- **Data Protection:** Managed daily and weekly offsite cloud backups using Veeam Cloud Backup, ensuring zero data loss for clinical records.
+- **Performance Reports:** Created Excel tracking reports for technical support requests, reducing average ticket resolution time by 25%.
 
 ### IT Infrastructure & Network Engineer
-**Wi-Tribe — Telecommunications & Internet Service Provider** | *Feb 2022 – Apr 2023*
-- **Network Uptime:** Maintained 99.9% network availability across Cisco routers, switches, FortiGate firewalls, and site-to-site VPN tunnels.
-- **Data Center Relocation:** Co-led the physical and logical migration of corporate servers and network equipment with zero unplanned downtime.
-- **Incident Resolution:** Resolved escalated IT tickets via Jira Service Management and documented standard operating procedures (SOPs).
+**Wi-Tribe — Telecommunications & Enterprise Internet Service Provider** | *Feb 2022 – Apr 2023*
+- **Network Uptime:** Maintained 99.9% network reliability across Cisco routers, switches, FortiGate firewalls, and secure VPN connections.
+- **Data Center Relocation:** Co-managed the physical and logical migration of data center servers and network equipment with zero unplanned downtime.
+- **Technical Support:** Resolved high-priority network and system tickets via Jira Service Management and documented troubleshooting guides.
 
 ### Cybersecurity Analyst
 **Halool Pvt Ltd — Enterprise Technology & Security Services** | *Sep 2021 – Feb 2022*
-- **Security Event Monitoring:** Monitored real-time security events across server and network logs using Wazuh SIEM.
-- **Incident Triage:** Investigated suspicious login attempts, preserved evidence, and documented remediation steps.
+- **Security Monitoring:** Monitored real-time security events across company log sources using Wazuh SIEM.
+- **Incident Analysis:** Assisted in security log investigations and incident documentation to identify attack methods and apply fixes.
 
 ---
 
-## 📬 Contact & Connect
+## 📬 Connect Across All Channels
 
 - **GitHub:** [github.com/Raheel-Khan9](https://github.com/Raheel-Khan9)
 - **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
-- **Twitter / X:** [x.com/Shaheen_4468](https://x.com/Shaheen_4468)
+- **X (Twitter):** [x.com/Shaheen_4468](https://x.com/Shaheen_4468)
+- **Instagram:** [instagram.com/raheelkhanbuildz](https://instagram.com/raheelkhanbuildz)
 - **Primary Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Secondary Email:** [raheelkhan17202@gmail.com](mailto:raheelkhan17202@gmail.com)
-- **Phone / WhatsApp:** [+971 55 413 3764](tel:+971554133764)
+- **Phone:** [+971 55 413 3764](tel:+971554133764)
 - **Location:** Dubai / Abu Dhabi, United Arab Emirates
