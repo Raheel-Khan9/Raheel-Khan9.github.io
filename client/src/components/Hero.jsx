@@ -26,14 +26,34 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Quick Socials Bar */}
+            {/* Quick Socials Bar in Exact Order */}
             <div className="portrait-socials">
+              <a
+                href="https://github.com/Raheel-Khan9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portrait-social-icon"
+                title="GitHub"
+                aria-label="GitHub"
+              >
+                <Github size={15} />
+              </a>
+              <a
+                href="https://linkedin.com/in/raheelkhanofficial7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portrait-social-icon"
+                title="LinkedIn"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={15} />
+              </a>
               <a
                 href="https://instagram.com/raheelkhanbuildz"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="portrait-social-icon insta-icon"
-                title="Instagram (@raheelkhanbuildz)"
+                className="portrait-social-icon insta-hover"
+                title="Instagram"
                 aria-label="Instagram"
               >
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -43,31 +63,11 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/raheelkhanofficial7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="portrait-social-icon"
-                title="LinkedIn Profile"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={15} />
-              </a>
-              <a
-                href="https://github.com/Raheel-Khan9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="portrait-social-icon"
-                title="GitHub Profile"
-                aria-label="GitHub"
-              >
-                <Github size={15} />
-              </a>
-              <a
                 href="https://x.com/Shaheen_4468"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="portrait-social-icon"
-                title="X (Twitter)"
+                title="Twitter / X"
                 aria-label="X"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
@@ -75,12 +75,20 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="mailto:raheelkhan9@outlook.com"
+                href="mailto:raheelkhan17202@gmail.com"
                 className="portrait-social-icon"
                 title="Email"
                 aria-label="Email"
               >
                 <Mail size={15} />
+              </a>
+              <a
+                href="tel:+971554133764"
+                className="portrait-social-icon"
+                title="Call / WhatsApp"
+                aria-label="Phone"
+              >
+                <Phone size={14} />
               </a>
             </div>
           </div>
@@ -107,46 +115,67 @@ export default function Hero() {
             I help organizations <strong>protect their systems from cyber threats</strong>, pass strict government security audits (like UAE Central Bank and Healthcare regulations), build smart <strong>AI tools</strong>, and keep cloud infrastructure running 24/7 without interruptions. Holding top credentials including <strong>ISACA CISM</strong>, <strong>Microsoft SC-200</strong>, and <strong>Cisco CCNA</strong>.
           </p>
 
-          <div className="hero-cta-group">
-            <a
-              href="https://instagram.com/raheelkhanbuildz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-instagram"
-            >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-              Instagram (@raheelkhanbuildz)
-            </a>
-            <a href="mailto:raheelkhan9@outlook.com" className="btn btn-primary">
-              <Mail size={18} />
-              Email Me
-            </a>
-            <a
-              href="https://github.com/Raheel-Khan9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary"
-            >
-              <Github size={18} />
-              GitHub
-            </a>
-            <a
-              href="https://linkedin.com/in/raheelkhanofficial7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary"
-            >
-              <Linkedin size={18} />
-              LinkedIn
-            </a>
-            <a href="tel:+971554133764" className="btn btn-outline">
-              <Phone size={18} />
-              Call Me
-            </a>
+          {/* Unified Action & Social Hub */}
+          <div className="hero-cta-container">
+            <div className="hero-actions-row">
+              <a href="mailto:raheelkhan17202@gmail.com" className="btn btn-primary">
+                <Mail size={17} />
+                Email Me
+              </a>
+              <a href="tel:+971554133764" className="btn btn-outline">
+                <Phone size={17} />
+                +971 55 413 3764
+              </a>
+            </div>
+
+            <div className="hero-social-strip">
+              <a
+                href="https://github.com/Raheel-Khan9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-chip"
+                title="GitHub"
+              >
+                <Github size={16} />
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://linkedin.com/in/raheelkhanofficial7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-chip"
+                title="LinkedIn"
+              >
+                <Linkedin size={16} />
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://instagram.com/raheelkhanbuildz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-chip social-chip-insta"
+                title="Instagram"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span>Instagram</span>
+              </a>
+              <a
+                href="https://x.com/Shaheen_4468"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-chip"
+                title="Twitter / X"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                </svg>
+                <span>X (Twitter)</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

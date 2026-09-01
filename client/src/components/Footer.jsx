@@ -5,16 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-content">
         <div className="footer-social-links">
-          <a
-            href="https://instagram.com/raheelkhanbuildz"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Instagram"
-            className="footer-social-link insta-link"
-          >
-            Instagram (@raheelkhanbuildz)
-          </a>
-          <span className="footer-sep">•</span>
+          {/* 1. GitHub */}
           <a
             href="https://github.com/Raheel-Khan9"
             target="_blank"
@@ -25,6 +16,8 @@ export default function Footer() {
             GitHub
           </a>
           <span className="footer-sep">•</span>
+
+          {/* 2. LinkedIn */}
           <a
             href="https://linkedin.com/in/raheelkhanofficial7"
             target="_blank"
@@ -35,6 +28,20 @@ export default function Footer() {
             LinkedIn
           </a>
           <span className="footer-sep">•</span>
+
+          {/* 3. Instagram */}
+          <a
+            href="https://instagram.com/raheelkhanbuildz"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+            className="footer-social-link"
+          >
+            Instagram
+          </a>
+          <span className="footer-sep">•</span>
+
+          {/* 4. Twitter / X */}
           <a
             href="https://x.com/Shaheen_4468"
             target="_blank"
@@ -45,12 +52,20 @@ export default function Footer() {
             X (Twitter)
           </a>
           <span className="footer-sep">•</span>
-          <a href="mailto:raheelkhan9@outlook.com" title="Primary Email" className="footer-social-link">
-            Primary Email
+
+          {/* 5. Emails */}
+          <a href="mailto:raheelkhan17202@gmail.com" title="Email (Gmail)" className="footer-social-link">
+            raheelkhan17202@gmail.com
           </a>
           <span className="footer-sep">•</span>
-          <a href="mailto:raheelkhan17202@gmail.com" title="Secondary Email" className="footer-social-link">
-            Secondary Email
+          <a href="mailto:raheelkhan9@outlook.com" title="Email (Outlook)" className="footer-social-link">
+            raheelkhan9@outlook.com
+          </a>
+          <span className="footer-sep">•</span>
+
+          {/* 6. Phone */}
+          <a href="tel:+971554133764" title="Phone" className="footer-social-link">
+            +971 55 413 3764
           </a>
         </div>
         <p>© 2026 Raheel Ahmed Khan (CISM, SC-200, CCNA) • Hosted on GitHub Pages</p>
