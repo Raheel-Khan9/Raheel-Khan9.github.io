@@ -3,89 +3,63 @@ import { Github } from 'lucide-react';
 
 const projectsData = [
   {
-    id: 'ai-emotion',
+    id: 'sentiovision-ai',
     category: 'ARTIFICIAL INTELLIGENCE',
     categoryClass: 'badge-purple',
-    tech: 'Python • Deep Learning • OpenCV • Google Colab',
-    title: 'Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine',
-    desc: "An AI computer vision program built in Google Colab that identifies a person's face, extracts 68 facial landmark coordinates, and accurately predicts emotional states (Joy, Anger, Surprise, Sadness, Neutral).",
+    tech: 'Python • Deep Learning • OpenCV • Colab',
+    title: 'SentioVision: Dual-Stage Emotion AI & 15 Facial Landmark Regression Pipeline',
+    desc: 'A real-time computer vision system built in Google Colab (inspired by Prof. Ryan Ahmed) that analyzes facial structure, detects 15 key landmark coordinates, and accurately predicts human emotional expressions.',
     specs: [
-      { text: 'Stage 1 (Landmark Detection): AI model locates 68 key points across eyes, brows, nose, and lips.' },
-      { text: 'Stage 2 (Emotion Prediction): Neural network analyzes landmark movements to recognize human feelings.' },
-      { text: 'Research & Development: Built through hands-on technical research, image preprocessing, and model tuning.' }
+      { text: 'Stage 1 (Landmark Detection): Convolutional neural network that pinpoints 15 key coordinates across eyes, eyebrows, nose, and mouth.' },
+      { text: 'Stage 2 (Emotion Classification): Deep classifier that analyzes geometric landmark movements to recognize core human emotions (Joy, Anger, Sadness, Surprise, Neutral).' },
+      { text: 'Model Engineering: Applied custom image augmentation, normalization pipelines, and model tuning for fast, accurate inference.' }
     ],
-    repo: 'https://github.com/Raheel-Khan9/emotion-recognition-deeplearning',
+    repo: 'https://github.com/Raheel-Khan9/SentioVision-Emotion-AI',
     featured: true
   },
   {
-    id: 'devops-k8s',
-    category: 'DEVOPS & CLOUD ARCHITECTURE',
-    categoryClass: 'badge-blue',
-    tech: 'Azure • Kubernetes (AKS) • Docker • GitLab CI/CD',
-    title: 'Enterprise Cloud Deployment & Kubernetes Solution Pipeline',
-    desc: 'An automated cloud deployment system on Microsoft Azure that packages business software into lightweight Docker containers and deploys them to Kubernetes with zero downtime.',
+    id: 'ai-soc-triage',
+    category: 'THREAT DEFENSE & AI',
+    categoryClass: 'badge-emerald',
+    tech: 'Microsoft SC-200 • CISM • Python • SIEM / SOAR',
+    title: 'AI-Powered SOC Alert Triage & Threat Enrichment Engine',
+    desc: 'An automated security alert triage engine designed to help Security Operations (SOC) teams rapidly process security alerts, eliminate false alarms, and generate instant incident investigation playbooks.',
     specs: [
-      { text: 'Automated Deployment: Continuous integration (CI/CD) pipeline running automated tests and rolling updates.' },
-      { text: 'Self-Healing Infrastructure: Configured automatic health monitors that restart failing services instantly.' },
-      { text: 'High Reliability: Balances network traffic across multiple servers so applications never crash during high traffic.' }
+      { text: 'Automated Alert Ingestion: Connects to SIEM and cloud log sources (Microsoft Sentinel / Wazuh / Defender) to ingest raw security alerts in real time.' },
+      { text: 'Threat Intelligence Enrichment: Automatically queries IP and domain threat databases to score risk levels and weed out benign false positives.' },
+      { text: 'AI-Guided Remediation: Generates step-by-step containment instructions and incident reports aligned with CISM and SC-200 best practices.' }
     ],
-    repo: 'https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline',
+    repo: 'https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine',
     featured: true
   },
   {
-    id: 'grc-matrix',
-    category: 'SECURITY & AUDIT',
+    id: 'powerbi-insurance',
+    category: 'DATA & BUSINESS ANALYTICS',
     categoryClass: 'badge-cyan',
-    tech: 'CBUAE • ADHICS • ISO 27001',
-    title: 'UAE Government & Banking Security Compliance Framework',
-    desc: 'A structured system mapping company security controls to UAE Central Bank (CBUAE), Abu Dhabi Health (ADHICS), and ISO 27001 standards, ensuring full audit readiness.',
+    tech: 'Power BI • SQL • DAX • Financial Modeling',
+    title: 'Insurance Business Intelligence & Financial Operational Dashboards',
+    desc: 'A suite of executive-ready Power BI reporting dashboards and automated SQL pipelines built for real-world insurance and financial brokerage operations.',
     specs: [
-      { text: '150+ Security Controls Mapped: Unified password policies, data encryption, and vendor risk checks.' },
-      { text: 'Audit Time Saved: Reduced audit preparation time by 40% with pre-formatted evidence reports.' }
+      { text: 'Executive Revenue Tracking: Real-time dashboards visualizing premium collections, broker commission payouts, and monthly sales targets.' },
+      { text: 'Claims Operational KPIs: Tracks insurance claim settlement turnaround times and highlights operational bottlenecks across departments.' },
+      { text: 'Automated SQL ETL: Replaces slow manual Excel sheets with automated data extraction models that cut monthly reporting time by 40%.' }
     ],
-    repo: 'https://github.com/Raheel-Khan9/uae-grc-compliance-matrix',
+    repo: 'https://github.com/Raheel-Khan9/PowerBI_Reports',
     featured: false
   },
   {
-    id: 'threat-detection',
-    category: 'THREAT MONITORING',
-    categoryClass: 'badge-emerald',
-    tech: 'Microsoft Sentinel (SC-200) • CrowdStrike',
-    title: 'Real-Time Threat Detection & Automated Incident Playbooks',
-    desc: 'Custom threat detection queries and automated alert systems in Microsoft Sentinel and CrowdStrike that spot cyber attacks and trigger instant security responses.',
-    specs: [
-      { text: 'Smart Detection Rules: Spots impossible travel logins, repeated password guessing, and privilege misuse.' },
-      { text: 'Automated Response: Blocks suspicious IP addresses and isolates infected computers automatically.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks',
-    featured: false
-  },
-  {
-    id: 'bcp-drp',
-    category: 'DISASTER RECOVERY',
+    id: 'build-your-own-loadbalancer',
+    category: 'SYSTEMS & NETWORKING',
     categoryClass: 'badge-blue',
-    tech: 'Emergency Backup • CBUAE 3-2-1 Directive',
-    title: 'Disaster Recovery & Business Continuity Framework',
-    desc: 'Step-by-step emergency disaster recovery plans ensuring critical banking and medical databases can be restored in under 15 minutes with zero lost data.',
+    tech: 'Python • TCP/IP Sockets • HTTP • Load Balancing',
+    title: 'Build-Your-Own Layer-7 Reverse Proxy & Load Balancer with Health Checks',
+    desc: 'A custom Layer-7 reverse proxy and network load balancer built from scratch (inspired by CodeCrafters Build Your Own X) that routes web traffic across backend servers with automatic failover.',
     specs: [
-      { text: 'Fast Recovery: Restores mission-critical systems in < 15 minutes using automated cloud replication.' },
-      { text: '3-2-1 Backup Rule: 3 copies of data on 2 different media types, with 1 copy stored in a secure offsite cloud.' }
+      { text: 'Traffic Balancing Algorithms: Implements Round-Robin and Least-Connections algorithms to balance incoming web requests evenly across server pools.' },
+      { text: 'Self-Healing Health Probes: Continuously monitors backend server responsiveness and automatically routes traffic away from crashed or slow servers.' },
+      { text: 'Socket-Level Engineering: Demonstrates deep understanding of TCP/IP networking, HTTP headers, concurrent socket handling, and high-availability architecture.' }
     ],
-    repo: 'https://github.com/Raheel-Khan9/bcp-drp-bia-framework',
-    featured: false
-  },
-  {
-    id: 'aml-analytics',
-    category: 'DATA ANALYTICS',
-    categoryClass: 'badge-emerald',
-    tech: 'Power BI • SQL • Financial Risk',
-    title: 'Financial Anti-Money Laundering (AML) & Risk Analytics',
-    desc: 'Automated data models and Power BI reports that evaluate customer transactions, identify suspicious financial behavior, and cut reporting time by 40%.',
-    specs: [
-      { text: 'Smart Risk Scoring: Automatically groups customer transactions into clear low, medium, and high-risk tiers.' },
-      { text: 'Automated Reports: Replaced slow manual spreadsheets with instant, auto-refreshing Power BI dashboards.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/aml-cft-risk-analytics',
+    repo: 'https://github.com/Raheel-Khan9/build-your-own-loadbalancer',
     featured: false
   }
 ];
@@ -94,9 +68,9 @@ export default function Projects() {
   return (
     <section id="projects" className="section reveal-section revealed">
       <div className="section-header">
-        <h2 className="section-title">Technical Projects & Key Work</h2>
+        <h2 className="section-title">Featured Technical Projects</h2>
         <p className="section-subtitle">
-          Real-world AI models, cloud automation pipelines, and security solutions with direct links to their GitHub repositories.
+          Practical, high-impact implementations across computer vision, AI-driven SOC operations, insurance business analytics, and core systems engineering.
         </p>
       </div>
 
