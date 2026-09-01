@@ -4,62 +4,62 @@ import { Github } from 'lucide-react';
 const projectsData = [
   {
     id: 'sentiovision-ai',
-    category: 'ARTIFICIAL INTELLIGENCE',
+    number: '1.',
+    emoji: '🤖',
+    category: '🤖 ARTIFICIAL INTELLIGENCE',
     categoryClass: 'badge-purple',
-    tech: 'Python • Deep Learning • OpenCV • Colab',
+    tech: 'Python • Deep Learning • OpenCV • Google Colab',
     title: 'SentioVision: Dual-Stage Emotion AI & 15 Facial Landmark Regression Pipeline',
-    desc: 'A real-time computer vision system built in Google Colab (inspired by Prof. Ryan Ahmed) that analyzes facial structure, detects 15 key landmark coordinates, and accurately predicts human emotional expressions.',
-    specs: [
-      { text: 'Stage 1 (Landmark Detection): Convolutional neural network that pinpoints 15 key coordinates across eyes, eyebrows, nose, and mouth.' },
-      { text: 'Stage 2 (Emotion Classification): Deep classifier that analyzes geometric landmark movements to recognize core human emotions (Joy, Anger, Sadness, Surprise, Neutral).' },
-      { text: 'Model Engineering: Applied custom image augmentation, normalization pipelines, and model tuning for fast, accurate inference.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/SentioVision-Emotion-AI',
+    domain: 'Artificial Intelligence & Computer Vision',
+    stack: 'Python, Deep Learning, OpenCV, Google Colab',
+    whatItDoes: 'A real-time computer vision system built in Google Colab (inspired by Prof. Ryan Ahmed) that analyzes facial structure, detects 15 key landmark coordinates, and accurately predicts human emotional expressions (Joy, Anger, Sadness, Surprise, Neutral).',
+    repoName: 'Raheel-Khan9/SentioVision-Emotion-AI',
+    repoUrl: 'https://github.com/Raheel-Khan9/SentioVision-Emotion-AI',
     featured: true
   },
   {
     id: 'ai-soc-triage',
-    category: 'THREAT DEFENSE & AI',
+    number: '2.',
+    emoji: '🚨',
+    category: '🚨 THREAT DEFENSE & SOC',
     categoryClass: 'badge-emerald',
     tech: 'Microsoft SC-200 • CISM • Python • SIEM / SOAR',
     title: 'AI-Powered SOC Alert Triage & Threat Enrichment Engine',
-    desc: 'An automated security alert triage engine designed to help Security Operations (SOC) teams rapidly process security alerts, eliminate false alarms, and generate instant incident investigation playbooks.',
-    specs: [
-      { text: 'Automated Alert Ingestion: Connects to SIEM and cloud log sources (Microsoft Sentinel / Wazuh / Defender) to ingest raw security alerts in real time.' },
-      { text: 'Threat Intelligence Enrichment: Automatically queries IP and domain threat databases to score risk levels and weed out benign false positives.' },
-      { text: 'AI-Guided Remediation: Generates step-by-step containment instructions and incident reports aligned with CISM and SC-200 best practices.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine',
+    domain: 'Threat Defense & SOC Automation',
+    stack: 'Microsoft SC-200, CISM, Python, Microsoft Sentinel / Wazuh SIEM, SOAR',
+    whatItDoes: 'An automated security alert triage engine that connects to SIEM/Cloud logs, queries threat intelligence databases to score alert severity, filters out false alarms, and generates step-by-step containment playbooks.',
+    repoName: 'Raheel-Khan9/AI-SOC-Triage-Engine',
+    repoUrl: 'https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine',
     featured: true
   },
   {
     id: 'powerbi-insurance',
-    category: 'DATA & BUSINESS ANALYTICS',
+    number: '3.',
+    emoji: '📊',
+    category: '📊 DATA & BUSINESS ANALYTICS',
     categoryClass: 'badge-cyan',
     tech: 'Power BI • SQL • DAX • Financial Modeling',
     title: 'Insurance Business Intelligence & Financial Operational Dashboards',
-    desc: 'A suite of executive-ready Power BI reporting dashboards and automated SQL pipelines built for real-world insurance and financial brokerage operations.',
-    specs: [
-      { text: 'Executive Revenue Tracking: Real-time dashboards visualizing premium collections, broker commission payouts, and monthly sales targets.' },
-      { text: 'Claims Operational KPIs: Tracks insurance claim settlement turnaround times and highlights operational bottlenecks across departments.' },
-      { text: 'Automated SQL ETL: Replaces slow manual Excel sheets with automated data extraction models that cut monthly reporting time by 40%.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/PowerBI_Reports',
+    domain: 'Data & Business Analytics',
+    stack: 'Power BI, SQL, DAX, Financial Operational Modeling',
+    whatItDoes: 'A suite of executive-ready Power BI reporting dashboards and automated SQL pipelines built for real-world insurance brokerage operations, tracking premium collections, broker commission payouts, and claim settlement turnaround times.',
+    repoName: 'Raheel-Khan9/PowerBI_Reports',
+    repoUrl: 'https://github.com/Raheel-Khan9/PowerBI_Reports',
     featured: false
   },
   {
     id: 'build-your-own-loadbalancer',
-    category: 'SYSTEMS & NETWORKING',
+    number: '4.',
+    emoji: '⚙️',
+    category: '⚙️ SYSTEMS & NETWORKING',
     categoryClass: 'badge-blue',
     tech: 'Python • TCP/IP Sockets • HTTP • Load Balancing',
     title: 'Build-Your-Own Layer-7 Reverse Proxy & Load Balancer with Health Checks',
-    desc: 'A custom Layer-7 reverse proxy and network load balancer built from scratch (inspired by CodeCrafters Build Your Own X) that routes web traffic across backend servers with automatic failover.',
-    specs: [
-      { text: 'Traffic Balancing Algorithms: Implements Round-Robin and Least-Connections algorithms to balance incoming web requests evenly across server pools.' },
-      { text: 'Self-Healing Health Probes: Continuously monitors backend server responsiveness and automatically routes traffic away from crashed or slow servers.' },
-      { text: 'Socket-Level Engineering: Demonstrates deep understanding of TCP/IP networking, HTTP headers, concurrent socket handling, and high-availability architecture.' }
-    ],
-    repo: 'https://github.com/Raheel-Khan9/build-your-own-loadbalancer',
+    domain: 'Systems & Networking Engineering (Inspired by CodeCrafters Build-Your-Own-X)',
+    stack: 'Python, TCP/IP Sockets, HTTP/1.1 Protocol, Round-Robin / Least-Connections Algorithms',
+    whatItDoes: 'A custom Layer-7 reverse proxy and network load balancer built from scratch that routes web traffic across backend servers with automatic health checks and failover routing.',
+    repoName: 'Raheel-Khan9/build-your-own-loadbalancer',
+    repoUrl: 'https://github.com/Raheel-Khan9/build-your-own-loadbalancer',
     featured: false
   }
 ];
@@ -68,9 +68,9 @@ export default function Projects() {
   return (
     <section id="projects" className="section reveal-section revealed">
       <div className="section-header">
-        <h2 className="section-title">Featured Technical Projects</h2>
+        <h2 className="section-title">Technical Projects & Key Work</h2>
         <p className="section-subtitle">
-          Practical, high-impact implementations across computer vision, AI-driven SOC operations, insurance business analytics, and core systems engineering.
+          Real-world AI models, cloud automation pipelines, and security solutions with direct links to their GitHub repositories.
         </p>
       </div>
 
@@ -87,28 +87,43 @@ export default function Projects() {
                   <span className="badge badge-dark">{project.tech}</span>
                 </div>
               </div>
-              <h3 className="project-title">{project.title}</h3>
-              <p className="project-description">{project.desc}</p>
+              <h3 className="project-title">
+                <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+                  {project.number} {project.emoji} {project.title}
+                </a>
+              </h3>
 
               <div className="project-spec-list">
-                {project.specs.map((spec, idx) => (
-                  <div className="spec-item" key={idx}>
-                    <span className="spec-icon">🔹</span>
-                    <div className="spec-text">{spec.text}</div>
+                <div className="spec-item">
+                  <span className="spec-icon">🌐</span>
+                  <div className="spec-text">
+                    <strong>Domain:</strong> {project.domain}
                   </div>
-                ))}
+                </div>
+                <div className="spec-item">
+                  <span className="spec-icon">⚡</span>
+                  <div className="spec-text">
+                    <strong>Stack:</strong> {project.stack}
+                  </div>
+                </div>
+                <div className="spec-item">
+                  <span className="spec-icon">💡</span>
+                  <div className="spec-text">
+                    <strong>What it does (Plain English):</strong> {project.whatItDoes}
+                  </div>
+                </div>
               </div>
             </div>
 
             <div className="project-footer-action">
               <a
-                href={project.repo}
+                href={project.repoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-repo-btn"
               >
                 <Github size={15} />
-                View GitHub Repository
+                GitHub Repository: {project.repoName}
               </a>
             </div>
           </div>
