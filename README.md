@@ -1,19 +1,27 @@
 # 🛡️ Raheel Ahmed Khan (CISM) | IT & Information Security Portfolio
 
 <div align="center">
-  <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" width="160" style="border-radius: 50%; border: 3px solid #06b6d4;" />
+  <img src="profile.jpg" alt="Raheel Ahmed Khan (CISM)" width="160" style="border-radius: 50%; border: 3px solid #00d2ff;" />
   <br />
   <h3>Raheel Ahmed Khan (CISM)</h3>
   <p><strong>IT & Information Security Professional | GRC, Cloud SecOps, Applied AI & Solutions Engineering</strong></p>
-  <p>Dubai / Abu Dhabi, UAE • +971 55 413 3764 • <a href="mailto:raheelkhan9@outlook.com">raheelkhan9@outlook.com</a> • <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn</a></p>
+  <p>
+    <a href="https://github.com/Raheel-Khan9">GitHub</a> • 
+    <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn</a> • 
+    <a href="https://x.com/raheelkhan">X (Twitter)</a> • 
+    <a href="https://instagram.com/raheelkhan">Instagram</a> • 
+    <a href="mailto:raheelkhan9@outlook.com">Email</a> • 
+    <a href="tel:+971554133764">+971 55 413 3764</a>
+  </p>
 </div>
 
-[![Live Site](https://img.shields.io/badge/Live_Portfolio-raheel--khan9.github.io-06b6d4?style=for-the-badge&logo=googlechrome)](https://raheel-khan9.github.io/)
-[![CISM](https://img.shields.io/badge/ISACA-CISM_Certified-06b6d4?style=for-the-badge&logo=isaca)](https://linkedin.com/in/raheelkhanofficial7)
+[![Live Site](https://img.shields.io/badge/Live_Portfolio-raheel--khan9.github.io-00d2ff?style=for-the-badge&logo=googlechrome)](https://raheel-khan9.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Raheel-Khan9)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/raheelkhanofficial7)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x)](https://x.com/raheelkhan)
+[![CISM](https://img.shields.io/badge/ISACA-CISM_Certified-00d2ff?style=for-the-badge&logo=isaca)](https://linkedin.com/in/raheelkhanofficial7)
 [![SC-200](https://img.shields.io/badge/Microsoft-SC--200_Certified-3b82f6?style=for-the-badge&logo=microsoft)](https://linkedin.com/in/raheelkhanofficial7)
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-10b981?style=for-the-badge&logo=cisco)](https://linkedin.com/in/raheelkhanofficial7)
-[![Security+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--701-ef4444?style=for-the-badge&logo=comptia)](https://linkedin.com/in/raheelkhanofficial7)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-Cybersecurity_Pro-f59e0b?style=for-the-badge&logo=googlecloud)](https://linkedin.com/in/raheelkhanofficial7)
 [![Academic](https://img.shields.io/badge/Academic-B.Sc._CS_(CGPA_3.79)-a855f7?style=for-the-badge)](https://linkedin.com/in/raheelkhanofficial7)
 
 > **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
@@ -53,21 +61,33 @@
 
 ---
 
-## 🤖 Featured Technical & AI Project Artifacts
+## 🤖 Featured Technical & AI Projects with Repositories
 
-### 1. Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine
+### 1. [Two-Stage Deep Learning Human Emotion & Facial Expression Recognition Engine](https://github.com/Raheel-Khan9/emotion-recognition-deeplearning)
 - **Stack:** Python, TensorFlow, PyTorch, OpenCV, Google Colab Notebooks
-- **Architecture:** Two cascading deep neural networks. Stage 1 localizes 68 fiducial facial landmarks (eyes, brows, mouth); Stage 2 analyzes geometric vectors to infer emotional states (Joy, Anger, Surprise, Sadness, Neutral). Built through rigorous independent research and university/industry study.
+- **Architecture:** Cascading deep neural networks. Stage 1 localizes 68 fiducial facial landmarks; Stage 2 evaluates deformation vectors to infer emotional states.
+- **Repository:** [`Raheel-Khan9/emotion-recognition-deeplearning`](https://github.com/Raheel-Khan9/emotion-recognition-deeplearning)
 
-### 2. Enterprise Microservices CI/CD & Kubernetes Solution Pipeline
+### 2. [Enterprise Microservices CI/CD & Kubernetes Solution Pipeline](https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline)
 - **Stack:** Microsoft Azure, Docker, Kubernetes (AKS), GitLab CLI, YAML, Linux
-- **Architecture:** Containerized multi-stage microservices deployment with automated health probes, canary rollouts, and GitLab CI/CD automation.
+- **Architecture:** Automated containerized solution pipeline with health probes, HPA, and GitLab CI/CD.
+- **Repository:** [`Raheel-Khan9/azure-k8s-cicd-pipeline`](https://github.com/Raheel-Khan9/azure-k8s-cicd-pipeline)
 
-### 3. UAE Multi-Regulatory Compliance Engine & Gap Assessment Matrix
+### 3. [UAE Multi-Regulatory Compliance Engine & Gap Assessment Matrix](https://github.com/Raheel-Khan9/uae-grc-compliance-matrix)
 - **Stack:** CBUAE Regulatory Framework, ADHICS 11 Domains, ISO/IEC 27001:2022, JSON Schema
+- **Repository:** [`Raheel-Khan9/uae-grc-compliance-matrix`](https://github.com/Raheel-Khan9/uae-grc-compliance-matrix)
 
-### 4. Enterprise Threat Hunting & Detection Engineering Playbooks
+### 4. [Enterprise Threat Hunting & Detection Engineering Playbooks](https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks)
 - **Stack:** Microsoft Sentinel (SC-200), CrowdStrike Falcon, KQL, Logic Apps SOAR
+- **Repository:** [`Raheel-Khan9/sentinel-threat-detection-playbooks`](https://github.com/Raheel-Khan9/sentinel-threat-detection-playbooks)
+
+### 5. [Disaster Recovery & Business Impact Analysis (BIA) Framework](https://github.com/Raheel-Khan9/bcp-drp-bia-framework)
+- **Stack:** DHA GC 05-2026, CBUAE 3-2-1 Backup Directives, BIA Mathematical Models
+- **Repository:** [`Raheel-Khan9/bcp-drp-bia-framework`](https://github.com/Raheel-Khan9/bcp-drp-bia-framework)
+
+### 6. [AML/CFT Financial Risk Categorization & Operational Analytics](https://github.com/Raheel-Khan9/aml-cft-risk-analytics)
+- **Stack:** Power BI, SQL, Python ETL, Quantitative AML/CFT Risk Stratification
+- **Repository:** [`Raheel-Khan9/aml-cft-risk-analytics`](https://github.com/Raheel-Khan9/aml-cft-risk-analytics)
 
 ---
 
@@ -116,9 +136,12 @@
 
 ---
 
-## 📬 Contact & Availability
+## 📬 Connect Across All Channels
 
+- **GitHub:** [github.com/Raheel-Khan9](https://github.com/Raheel-Khan9)
+- **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
+- **X (Twitter):** [x.com/raheelkhan](https://x.com/raheelkhan)
+- **Instagram:** [instagram.com/raheelkhan](https://instagram.com/raheelkhan)
 - **Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Phone:** [+971 55 413 3764](tel:+971554133764)
-- **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
 - **Location:** Dubai / Abu Dhabi, United Arab Emirates

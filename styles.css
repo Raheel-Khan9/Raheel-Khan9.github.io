@@ -5,7 +5,8 @@
    - Custom Glowing Blue Cursor
    - Universal Click/Touch Quantum Splash
    - Ambient Blue Smoke Vapor Trail on Touch & Scroll
-   - Mobile-Optimized Project Cards
+   - Mobile-Optimized Project Cards & Repo Links
+   - Multi-Channel Social Integration
    ========================================================================== */
 
 :root {
@@ -369,7 +370,7 @@ img {
     margin-bottom: 36px;
 }
 
-/* Portrait Card */
+/* Portrait Card & Socials */
 .hero-portrait-col {
     display: flex;
     justify-content: center;
@@ -456,6 +457,37 @@ img {
     color: var(--accent-emerald);
     margin-top: 3px;
     font-family: var(--font-mono);
+}
+
+.portrait-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.portrait-social-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+.portrait-social-icon:hover {
+    background: var(--accent-cyan-glow);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 210, 255, 0.3);
 }
 
 /* Hero Content */
@@ -899,7 +931,7 @@ img {
 }
 
 /* ==========================================================================
-   Projects Section (Mobile-Optimized Clean Specifications)
+   Projects Section (Mobile-Optimized Clean Specifications & Repo Links)
    ========================================================================== */
 .project-grid {
     display: grid;
@@ -993,6 +1025,35 @@ img {
 
 .spec-text strong {
     color: var(--accent-cyan);
+}
+
+.project-footer-action {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.project-repo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-cyan);
+    background: rgba(0, 210, 255, 0.08);
+    border: 1px solid rgba(0, 210, 255, 0.25);
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+.project-repo-btn:hover {
+    background: var(--accent-cyan);
+    color: #031217;
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 210, 255, 0.35);
 }
 
 /* ==========================================================================
@@ -1185,9 +1246,35 @@ img {
 .footer-content {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     color: var(--text-dim);
     font-size: 0.82rem;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.footer-social-link {
+    color: var(--accent-cyan);
+    font-size: 0.82rem;
+    font-family: var(--font-mono);
+    transition: var(--transition);
+}
+
+.footer-social-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-sep {
+    color: var(--text-dim);
+    font-size: 0.75rem;
 }
 
 .footer-sub {
