@@ -6,6 +6,16 @@ export default function Footer() {
       <div className="container footer-content">
         <div className="footer-social-links">
           <a
+            href="https://instagram.com/raheelkhanbuildz"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+            className="footer-social-link insta-link"
+          >
+            Instagram (@raheelkhanbuildz)
+          </a>
+          <span className="footer-sep">•</span>
+          <a
             href="https://github.com/Raheel-Khan9"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,16 +43,6 @@ export default function Footer() {
             className="footer-social-link"
           >
             X (Twitter)
-          </a>
-          <span className="footer-sep">•</span>
-          <a
-            href="https://instagram.com/raheelkhanbuildz"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Instagram"
-            className="footer-social-link"
-          >
-            Instagram
           </a>
           <span className="footer-sep">•</span>
           <a href="mailto:raheelkhan9@outlook.com" title="Primary Email" className="footer-social-link">

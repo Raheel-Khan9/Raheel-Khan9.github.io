@@ -61,10 +61,10 @@ const certsData = [
     badgeClass: 'academic',
     badgeText: 'Academic Degree',
     status: 'Verified',
-    name: 'B.Sc. Computer Science',
+    name: 'Bachelors in Computer Science',
     fullname: 'Federal Urdu University (Honors)',
     date: 'CGPA: 3.79 / 4.0',
-    domain: 'Algorithms & Applied AI',
+    domain: 'Computer Science',
     featured: false
   }
 ];
@@ -73,7 +73,7 @@ export default function Certifications() {
   return (
     <section id="certifications" className="section reveal-section revealed">
       <div className="section-header">
-        <h2 className="section-title">Verified Industry Certifications & Accreditations</h2>
+        <h2 className="section-title">Verified Industry Certifications & Academic Degree</h2>
         <p className="section-subtitle">
           Globally recognized industry certifications validating managerial, security, and technical expertise.
         </p>

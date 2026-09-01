@@ -6,10 +6,10 @@
   <h3>Raheel Ahmed Khan (CISM)</h3>
   <p><strong>IT & Information Security Professional | GRC, Cloud SecOps, Applied AI & Solutions Engineering</strong></p>
   <p>
-    <a href="https://github.com/Raheel-Khan9">GitHub</a> • 
+    <a href="https://instagram.com/raheelkhanbuildz"><strong>Instagram (@raheelkhanbuildz)</strong></a> • 
     <a href="https://linkedin.com/in/raheelkhanofficial7">LinkedIn</a> • 
+    <a href="https://github.com/Raheel-Khan9">GitHub</a> • 
     <a href="https://x.com/Shaheen_4468">X (Twitter)</a> • 
-    <a href="https://instagram.com/raheelkhanbuildz">Instagram</a> • 
     <a href="mailto:raheelkhan9@outlook.com">Primary Email</a> • 
     <a href="mailto:raheelkhan17202@gmail.com">Secondary Email</a> • 
     <a href="tel:+971554133764">+971 55 413 3764</a>
@@ -17,14 +17,14 @@
 </div>
 
 [![Live Site](https://img.shields.io/badge/Live_Portfolio-raheel--khan9.github.io-00d2ff?style=for-the-badge&logo=googlechrome)](https://raheel-khan9.github.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-Raheel--Khan9-181717?style=for-the-badge&logo=github)](https://github.com/Raheel-Khan9)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/raheelkhanofficial7)
-[![X](https://img.shields.io/badge/X-@Shaheen__4468-000000?style=for-the-badge&logo=x)](https://x.com/Shaheen_4468)
 [![Instagram](https://img.shields.io/badge/Instagram-@raheelkhanbuildz-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/raheelkhanbuildz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/raheelkhanofficial7)
+[![GitHub](https://img.shields.io/badge/GitHub-Raheel--Khan9-181717?style=for-the-badge&logo=github)](https://github.com/Raheel-Khan9)
+[![X](https://img.shields.io/badge/X-@Shaheen__4468-000000?style=for-the-badge&logo=x)](https://x.com/Shaheen_4468)
 [![CISM](https://img.shields.io/badge/ISACA-CISM_Certified-00d2ff?style=for-the-badge&logo=isaca)](https://linkedin.com/in/raheelkhanofficial7)
 [![SC-200](https://img.shields.io/badge/Microsoft-SC--200_Certified-3b82f6?style=for-the-badge&logo=microsoft)](https://linkedin.com/in/raheelkhanofficial7)
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-10b981?style=for-the-badge&logo=cisco)](https://linkedin.com/in/raheelkhanofficial7)
-[![Academic](https://img.shields.io/badge/Academic-B.Sc._CS_(CGPA_3.79)-a855f7?style=for-the-badge)](https://linkedin.com/in/raheelkhanofficial7)
+[![Academic](https://img.shields.io/badge/Academic-Bachelors_in_CS_(CGPA_3.79)-a855f7?style=for-the-badge)](https://linkedin.com/in/raheelkhanofficial7)
 
 > **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
@@ -110,7 +110,7 @@ npm run dev
 | **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
 | **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
 | **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
-| **Bachelor of Science (Hons) in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Algorithms, Distributed Systems & Applied AI) | Honors Graduate |
+| **Bachelors in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Computer Science) | Honors Graduate |
 
 ---
 
@@ -184,10 +184,10 @@ npm run dev
 
 ## 📬 Connect Across All Channels
 
-- **GitHub:** [github.com/Raheel-Khan9](https://github.com/Raheel-Khan9)
-- **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
-- **X (Twitter):** [x.com/Shaheen_4468](https://x.com/Shaheen_4468)
 - **Instagram:** [instagram.com/raheelkhanbuildz](https://instagram.com/raheelkhanbuildz)
+- **LinkedIn:** [linkedin.com/in/raheelkhanofficial7](https://linkedin.com/in/raheelkhanofficial7)
+- **GitHub:** [github.com/Raheel-Khan9](https://github.com/Raheel-Khan9)
+- **X (Twitter):** [x.com/Shaheen_4468](https://x.com/Shaheen_4468)
 - **Primary Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
 - **Secondary Email:** [raheelkhan17202@gmail.com](mailto:raheelkhan17202@gmail.com)
 - **Phone:** [+971 55 413 3764](tel:+971554133764)

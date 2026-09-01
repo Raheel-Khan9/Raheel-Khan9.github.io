@@ -11,6 +11,15 @@ export default function Contact() {
         </p>
 
         <div className="contact-methods">
+          <a
+            href="https://instagram.com/raheelkhanbuildz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-item contact-insta"
+          >
+            <span className="icon">📷</span>
+            <span className="label">instagram.com/raheelkhanbuildz</span>
+          </a>
           <a href="mailto:raheelkhan9@outlook.com" className="contact-item">
             <span className="icon">✉</span>
             <span className="label">raheelkhan9@outlook.com</span>
@@ -45,15 +54,6 @@ export default function Contact() {
           >
             <span className="icon">𝕏</span>
             <span className="label">x.com/Shaheen_4468</span>
-          </a>
-          <a
-            href="https://instagram.com/raheelkhanbuildz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-item"
-          >
-            <span className="icon">📷</span>
-            <span className="label">instagram.com/raheelkhanbuildz</span>
           </a>
           <a href="tel:+971554133764" className="contact-item">
             <span className="icon">📞</span>

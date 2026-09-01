@@ -6,7 +6,7 @@
    - Universal Click/Touch Quantum Splash
    - Ambient Blue Smoke Vapor Trail on Touch & Scroll
    - Mobile-Optimized Project Cards & Repo Links
-   - Multi-Channel Social Integration
+   - Multi-Channel Social Integration with Vibrant Instagram Highlights
    ========================================================================== */
 
 :root {
@@ -28,6 +28,7 @@
     --accent-blue: #38bdf8;
     --accent-purple: #a855f7;
     --accent-amber: #f59e0b;
+    --accent-insta: #e1306c;
 
     --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
@@ -490,6 +491,13 @@ img {
     box-shadow: 0 4px 10px rgba(0, 210, 255, 0.3);
 }
 
+.portrait-social-icon.insta-icon:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-color: #e1306c;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(225, 48, 108, 0.45);
+}
+
 /* Hero Content */
 .hero-content-col {
     display: flex;
@@ -667,6 +675,19 @@ img {
     border-color: var(--accent-cyan);
     color: var(--text-main);
     transform: translateY(-2px);
+}
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #ffffff !important;
+    border: none;
+    font-weight: 700;
+}
+
+.btn-instagram:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(225, 48, 108, 0.45);
+    color: #ffffff !important;
 }
 
 /* ==========================================================================
@@ -1227,6 +1248,16 @@ img {
     box-shadow: 0 4px 14px rgba(0, 210, 255, 0.25);
 }
 
+.contact-item.contact-insta {
+    border-color: rgba(225, 48, 108, 0.35);
+    background: rgba(225, 48, 108, 0.08);
+}
+
+.contact-item.contact-insta:hover {
+    border-color: #e1306c;
+    box-shadow: 0 4px 16px rgba(225, 48, 108, 0.35);
+}
+
 .contact-item .icon {
     font-size: 1.1rem;
 }
@@ -1270,6 +1301,15 @@ img {
 .footer-social-link:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.footer-social-link.insta-link {
+    color: #f43f5e;
+    font-weight: 600;
+}
+
+.footer-social-link.insta-link:hover {
+    color: #fb7185;
 }
 
 .footer-sep {
