@@ -27,59 +27,6 @@
 
 > **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
----
-
-## ⚡ Architecture Overview (Dual Deployment Model)
-
-This repository is architected to support **both**:
-1. **🚀 Direct GitHub Pages Hosting (`Raheel-Khan9.github.io`)**: Instant, static, zero-build deployment via root `index.html`, `styles.css`, and `app.js`.
-2. **⚛️ Full MERN Stack Modern Architecture**: Modern **React + Vite** frontend (`client/`) paired with an **Express & Node.js + MongoDB** backend API (`server/`).
-
-```
-raheel-portfolio/
-├── client/                     # ⚛️ React 18 + Vite Frontend
-│   ├── public/                 # Static assets (profile.jpg)
-│   ├── src/
-│   │   ├── components/         # Modular React Components (Hero, Navbar, Domains, etc.)
-│   │   ├── App.jsx             # Main Application Layout
-│   │   ├── main.jsx            # React Entrypoint
-│   │   └── index.css           # Electric Blue Sciency Styling
-│   ├── package.json
-│   └── vite.config.js
-├── server/                     # 🟢 Node.js & Express REST API Backend
-│   ├── models/                 # MongoDB Message Schema
-│   ├── routes/                 # Contact & Health Check Routes
-│   ├── server.js               # Express Server & DB Connection
-│   └── package.json
-├── index.html                  # 🌐 Instant GitHub Pages Entrypoint
-├── styles.css                  # Production Stylesheet
-├── app.js                      # Particle Engine, Vapor Trail & Universal Splash
-├── profile.jpg                 # Verified Executive Headshot
-└── README.md
-```
-
----
-
-## 💻 How to Run the MERN Stack Locally
-
-### 1. Run the React Frontend (`client`)
-```bash
-cd client
-npm install
-npm run dev
-```
-*Your React app will open at `http://localhost:3000`.*
-
-### 2. Run the Node.js / Express Backend (`server`)
-```bash
-cd server
-npm install
-npm run dev
-```
-*Your API server will run at `http://localhost:5000`.*
-
----
-
 ## 📊 Core Capabilities Across 6 Domains (Plain English)
 
 ```
