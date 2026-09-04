@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Github, Phone } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -82,14 +82,6 @@ export default function Hero() {
               >
                 <Mail size={15} />
               </a>
-              <a
-                href="tel:+971554133764"
-                className="portrait-social-icon"
-                title="Call / WhatsApp"
-                aria-label="Phone"
-              >
-                <Phone size={14} />
-              </a>
             </div>
           </div>
         </div>
@@ -122,9 +114,9 @@ export default function Hero() {
                 <Mail size={17} />
                 Email Me
               </a>
-              <a href="tel:+971554133764" className="btn btn-outline">
-                <Phone size={17} />
-                +971 55 413 3764
+              <a href="https://linkedin.com/in/raheelkhanofficial7" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+                <Linkedin size={17} />
+                Connect on LinkedIn
               </a>
             </div>
 

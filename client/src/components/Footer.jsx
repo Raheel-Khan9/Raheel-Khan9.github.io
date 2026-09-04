@@ -61,12 +61,6 @@ export default function Footer() {
           <a href="mailto:raheelkhan9@outlook.com" title="Email (Outlook)" className="footer-social-link">
             raheelkhan9@outlook.com
           </a>
-          <span className="footer-sep">•</span>
-
-          {/* 6. Phone */}
-          <a href="tel:+971554133764" title="Phone" className="footer-social-link">
-            +971 55 413 3764
-          </a>
         </div>
         <p>© 2026 Raheel Ahmed Khan (CISM, SC-200, CCNA) • Hosted on GitHub Pages</p>
         <p className="footer-sub">Dubai / Abu Dhabi, United Arab Emirates • Open to Global & Regional Roles</p>

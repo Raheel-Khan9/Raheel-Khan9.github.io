@@ -63,12 +63,6 @@ export default function Contact() {
             <span className="icon">✉</span>
             <span className="label">raheelkhan9@outlook.com</span>
           </a>
-
-          {/* 6. Phone */}
-          <a href="tel:+971554133764" className="contact-item">
-            <span className="icon">📞</span>
-            <span className="label">+971 55 413 3764</span>
-          </a>
         </div>
       </div>
     </section>

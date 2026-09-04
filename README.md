@@ -11,8 +11,7 @@
     <a href="https://instagram.com/raheelkhanbuildz">Instagram</a> • 
     <a href="https://x.com/Shaheen_4468">X (Twitter)</a> • 
     <a href="mailto:raheelkhan17202@gmail.com">raheelkhan17202@gmail.com</a> • 
-    <a href="mailto:raheelkhan9@outlook.com">raheelkhan9@outlook.com</a> • 
-    <a href="tel:+971554133764">+971 55 413 3764</a>
+    <a href="mailto:raheelkhan9@outlook.com">raheelkhan9@outlook.com</a>
   </p>
 </div>
 
@@ -28,7 +27,60 @@
 
 > **IT & Information Security Professional** with **5 years of experience (4 years in the UAE)** bridging cybersecurity governance, enterprise cloud infrastructure, applied AI modeling, and data analytics. Holds top-tier industry credentials including **ISACA CISM**, **Microsoft SC-200**, and **Cisco CCNA**.
 
-## 📊 Core Capabilities Across Domains
+---
+
+## ⚡ Architecture Overview (Dual Deployment Model)
+
+This repository is architected to support **both**:
+1. **🚀 Direct GitHub Pages Hosting (`Raheel-Khan9.github.io`)**: Instant, static, zero-build deployment via root `index.html`, `styles.css`, and `app.js`.
+2. **⚛️ Full MERN Stack Modern Architecture**: Modern **React + Vite** frontend (`client/`) paired with an **Express & Node.js + MongoDB** backend API (`server/`).
+
+```
+raheel-portfolio/
+├── client/                     # ⚛️ React 18 + Vite Frontend
+│   ├── public/                 # Static assets (profile.jpg)
+│   ├── src/
+│   │   ├── components/         # Modular React Components (Hero, Navbar, Domains, etc.)
+│   │   ├── App.jsx             # Main Application Layout
+│   │   ├── main.jsx            # React Entrypoint
+│   │   └── index.css           # Electric Blue Sciency Styling
+│   ├── package.json
+│   └── vite.config.js
+├── server/                     # 🟢 Node.js & Express REST API Backend
+│   ├── models/                 # MongoDB Message Schema
+│   ├── routes/                 # Contact & Health Check Routes
+│   ├── server.js               # Express Server & DB Connection
+│   └── package.json
+├── index.html                  # 🌐 Instant GitHub Pages Entrypoint
+├── styles.css                  # Production Stylesheet
+├── app.js                      # Particle Engine, Vapor Trail & Universal Splash
+├── profile.jpg                 # Verified Executive Headshot
+└── README.md
+```
+
+---
+
+## 💻 How to Run the MERN Stack Locally
+
+### 1. Run the React Frontend (`client`)
+```bash
+cd client
+npm install
+npm run dev
+```
+*Your React app will open at `http://localhost:3000`.*
+
+### 2. Run the Node.js / Express Backend (`server`)
+```bash
+cd server
+npm install
+npm run dev
+```
+*Your API server will run at `http://localhost:5000`.*
+
+---
+
+## 📊 Core Capabilities Across 6 Domains (Plain English)
 
 ```
 ┌────────────────────────────────────────┬────────────────────────────────────────┐
@@ -57,7 +109,7 @@
 | **CompTIA Security+ (SY0-701)** | CompTIA | Enterprise Security Architecture, Threat Intelligence, Cryptography | Valid to Sept 2025 |
 | **Cisco Certified Network Associate (CCNA 200-301)** | Cisco | IP Routing, Enterprise Switching, VLANs, Network Security | Issued April 2024 |
 | **Google Cloud Cybersecurity Professional** | Google Cloud | Cloud Infrastructure Defense, IAM Policies, Cloud Security Posture | Valid to March 2026 |
-| **Bachelors in Computer Science** | CGPA: 3.79 / 4.0 (Computer Science) | Honors Graduate |
+| **Bachelors in Computer Science** | Federal Urdu University | CGPA: 3.79 / 4.0 (Computer Science) | Honors Graduate |
 
 ---
 
@@ -131,4 +183,3 @@
 4. **X (Twitter):** [x.com/Shaheen_4468](https://x.com/Shaheen_4468)
 5. **Primary Email:** [raheelkhan17202@gmail.com](mailto:raheelkhan17202@gmail.com)
 6. **Secondary Email:** [raheelkhan9@outlook.com](mailto:raheelkhan9@outlook.com)
-7. **Phone / WhatsApp:** [+971 55 413 3764](tel:+971554133764)
