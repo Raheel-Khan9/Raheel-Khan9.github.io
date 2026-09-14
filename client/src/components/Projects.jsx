@@ -3,8 +3,38 @@ import { Github } from 'lucide-react';
 
 const projectsData = [
   {
-    id: 'sentiovision-ai',
+    id: 'fincore-payment-engine',
     number: '1.',
+    emoji: '💳',
+    category: '💳 FINTECH & TRANSACTION SECURITY',
+    categoryClass: 'badge-emerald',
+    tech: 'Azure Functions • Event Hubs • SQL Ledger • Redis • Python',
+    title: 'FinCore: Serverless Real-Time Payment Processing & Fraud Risk Engine',
+    domain: 'FinTech Cloud Systems & Transaction Security',
+    stack: 'Azure Functions / AWS Lambda, Event Hubs / Kafka, Azure SQL Ledger, Redis, CBUAE Compliance',
+    whatItDoes: 'An event-driven serverless payment gateway that validates transactions, scores fraud risk in under 30 milliseconds (impossible travel & velocity checks), and writes tamper-proof audit trails compliant with UAE Central Bank (CBUAE) banking standards.',
+    repoName: 'Raheel-Khan9/fincore-payment-engine',
+    repoUrl: 'https://github.com/Raheel-Khan9/fincore-payment-engine',
+    featured: true
+  },
+  {
+    id: 'cloudcart-ecommerce',
+    number: '2.',
+    emoji: '🛒',
+    category: '🛒 CLOUD & DEVOPS ARCHITECTURE',
+    categoryClass: 'badge-blue',
+    tech: 'Azure AKS / AWS EKS • Terraform • Docker • Helm • CI/CD',
+    title: 'CloudCart: High-Availability Microservices E-Commerce Platform on Azure & AWS',
+    domain: 'Cloud Architecture & DevOps Solutions',
+    stack: 'Microsoft Azure (AKS, Front Door, Cosmos DB) / AWS (EKS, CloudFront), Terraform IaC, Docker, Kubernetes, GitHub Actions',
+    whatItDoes: 'A production-grade e-commerce microservices platform provisioned with Terraform and deployed to Kubernetes, featuring autoscaling pods for flash sales, Redis cart caching, PCI-DSS compliant secrets, and automated zero-downtime CI/CD deployments.',
+    repoName: 'Raheel-Khan9/cloudcart-ecommerce-platform',
+    repoUrl: 'https://github.com/Raheel-Khan9/cloudcart-ecommerce-platform',
+    featured: true
+  },
+  {
+    id: 'sentiovision-ai',
+    number: '3.',
     emoji: '🤖',
     category: '🤖 ARTIFICIAL INTELLIGENCE',
     categoryClass: 'badge-purple',
@@ -15,11 +45,11 @@ const projectsData = [
     whatItDoes: 'A real-time computer vision system built in Google Colab (inspired by Prof. Ryan Ahmed) that analyzes facial structure, detects 15 key landmark coordinates, and accurately predicts human emotional expressions (Joy, Anger, Sadness, Surprise, Neutral).',
     repoName: 'Raheel-Khan9/SentioVision-Emotion-AI',
     repoUrl: 'https://github.com/Raheel-Khan9/SentioVision-Emotion-AI',
-    featured: true
+    featured: false
   },
   {
     id: 'ai-soc-triage',
-    number: '2.',
+    number: '4.',
     emoji: '🚨',
     category: '🚨 THREAT DEFENSE & SOC',
     categoryClass: 'badge-emerald',
@@ -30,11 +60,11 @@ const projectsData = [
     whatItDoes: 'An automated security alert triage engine that connects to SIEM/Cloud logs, queries threat intelligence databases to score alert severity, filters out false alarms, and generates step-by-step containment playbooks.',
     repoName: 'Raheel-Khan9/AI-SOC-Triage-Engine',
     repoUrl: 'https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine',
-    featured: true
+    featured: false
   },
   {
     id: 'powerbi-insurance',
-    number: '3.',
+    number: '5.',
     emoji: '📊',
     category: '📊 DATA & BUSINESS ANALYTICS',
     categoryClass: 'badge-cyan',
@@ -49,7 +79,7 @@ const projectsData = [
   },
   {
     id: 'build-your-own-loadbalancer',
-    number: '4.',
+    number: '6.',
     emoji: '⚙️',
     category: '⚙️ SYSTEMS & NETWORKING',
     categoryClass: 'badge-blue',
