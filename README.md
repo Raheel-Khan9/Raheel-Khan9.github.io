@@ -29,58 +29,7 @@
 
 ---
 
-## ⚡ Architecture Overview (Dual Deployment Model)
-
-This repository is architected to support **both**:
-1. **🚀 Direct GitHub Pages Hosting (`Raheel-Khan9.github.io`)**: Instant, static, zero-build deployment via root `index.html`, `styles.css`, and `app.js`.
-2. **⚛️ Full MERN Stack Modern Architecture**: Modern **React + Vite** frontend (`client/`) paired with an **Express & Node.js + MongoDB** backend API (`server/`).
-
-```
-raheel-portfolio/
-├── client/                     # ⚛️ React 18 + Vite Frontend
-│   ├── public/                 # Static assets (profile.jpg)
-│   ├── src/
-│   │   ├── components/         # Modular React Components (Hero, Navbar, Domains, etc.)
-│   │   ├── App.jsx             # Main Application Layout
-│   │   ├── main.jsx            # React Entrypoint
-│   │   └── index.css           # Electric Blue Sciency Styling
-│   ├── package.json
-│   └── vite.config.js
-├── server/                     # 🟢 Node.js & Express REST API Backend
-│   ├── models/                 # MongoDB Message Schema
-│   ├── routes/                 # Contact & Health Check Routes
-│   ├── server.js               # Express Server & DB Connection
-│   └── package.json
-├── index.html                  # 🌐 Instant GitHub Pages Entrypoint
-├── styles.css                  # Production Stylesheet
-├── app.js                      # Particle Engine, Vapor Trail & Universal Splash
-├── profile.jpg                 # Verified Executive Headshot
-└── README.md
-```
-
----
-
-## 💻 How to Run the MERN Stack Locally
-
-### 1. Run the React Frontend (`client`)
-```bash
-cd client
-npm install
-npm run dev
-```
-*Your React app will open at `http://localhost:3000`.*
-
-### 2. Run the Node.js / Express Backend (`server`)
-```bash
-cd server
-npm install
-npm run dev
-```
-*Your API server will run at `http://localhost:5000`.*
-
----
-
-## 📊 Core Capabilities Across 6 Domains (Plain English)
+### 📊 Core Capabilities Across 6 Domains (Plain English)
 
 ```
 ┌────────────────────────────────────────┬────────────────────────────────────────┐
@@ -113,50 +62,44 @@ npm run dev
 
 ---
 
-## 🤖 Featured Practical Technical Projects with Repositories
+## 🤖 Featured Technical Projects & Repositories
 
-### 1. [FinCore: Serverless Real-Time Payment Processing & Fraud Risk Engine](https://github.com/Raheel-Khan9/fincore-payment-engine)
-- **Category:** FINTECH & TRANSACTION SECURITY
-- **Stack:** Azure Functions / AWS Lambda, Event Hubs / Kafka, Azure SQL Ledger, Redis, Python, CBUAE Guidelines
-- **Description:** An event-driven serverless payment gateway that validates transactions, scores fraud risk in under 30 milliseconds (impossible travel & velocity checks), and writes tamper-proof audit trails compliant with UAE Central Bank (CBUAE) banking standards.
-- **Repository:** [`Raheel-Khan9/fincore-payment-engine`](https://github.com/Raheel-Khan9/fincore-payment-engine)
-
-### 2. [CloudCart: High-Availability Microservices E-Commerce Platform on Azure & AWS](https://github.com/Raheel-Khan9/cloudcart-ecommerce-platform)
-- **Category:** CLOUD ARCHITECTURE & DEVOPS SOLUTIONS
-- **Stack:** Microsoft Azure (AKS, Front Door, Cosmos DB) / AWS (EKS, CloudFront), Terraform IaC, Docker, Kubernetes, GitHub Actions
-- **Description:** A production-grade e-commerce microservices platform provisioned with Terraform and deployed to Kubernetes, featuring autoscaling pods for flash sales, Redis cart caching, PCI-DSS compliant secrets, and automated zero-downtime CI/CD deployments.
-- **Repository:** [`Raheel-Khan9/cloudcart-ecommerce-platform`](https://github.com/Raheel-Khan9/cloudcart-ecommerce-platform)
-
-### 3. [SentioVision: Dual-Stage Emotion AI & 15 Facial Landmark Regression Pipeline](https://github.com/Raheel-Khan9/SentioVision-Emotion-AI)
+### 1. [SentioVision: Dual-Stage Emotion AI & 15 Facial Landmark Regression Pipeline](https://github.com/Raheel-Khan9/SentioVision-Emotion-AI)
 - **Category:** ARTIFICIAL INTELLIGENCE & COMPUTER VISION
-- **Stack:** Python, Deep Learning, OpenCV, Google Colab
-- **Description:** A real-time computer vision system built in Google Colab (inspired by Prof. Ryan Ahmed) that analyzes facial structure, detects 15 key landmark coordinates, and accurately predicts human emotional expressions.
+- **Tools:** Python, Deep Learning, OpenCV, Google Colab, Keras, TensorFlow
 - **Repository:** [`Raheel-Khan9/SentioVision-Emotion-AI`](https://github.com/Raheel-Khan9/SentioVision-Emotion-AI)
 
-### 4. [AI-Powered SOC Alert Triage & Threat Enrichment Engine](https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine)
+### 2. [AI-Powered SOC Alert Triage & Threat Enrichment Engine](https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine)
 - **Category:** THREAT DEFENSE & SOC AUTOMATION
-- **Stack:** Microsoft SC-200, CISM, Python, Microsoft Sentinel / Wazuh SIEM, SOAR
-- **Description:** An automated security alert triage engine designed to help Security Operations (SOC) teams rapidly process security alerts, eliminate false alarms, and generate instant incident investigation playbooks.
+- **Tools:** Microsoft Sentinel, Wazuh SIEM, Python, SOAR Playbooks, KQL, Threat Intel APIs
 - **Repository:** [`Raheel-Khan9/AI-SOC-Triage-Engine`](https://github.com/Raheel-Khan9/AI-SOC-Triage-Engine)
 
-### 5. [Insurance Business Intelligence & Financial Operational Dashboards](https://github.com/Raheel-Khan9/PowerBI_Reports)
+### 3. [Insurance Business Intelligence & Financial Operational Dashboards](https://github.com/Raheel-Khan9/PowerBI_Reports)
 - **Category:** DATA & BUSINESS ANALYTICS
-- **Stack:** Power BI, SQL, DAX, Financial Operational Modeling
-- **Description:** A suite of executive-ready Power BI reporting dashboards and automated SQL pipelines built for real-world insurance and financial brokerage operations.
+- **Tools:** Power BI, DAX, SQL Server, Financial Modeling, ETL Pipelines
 - **Repository:** [`Raheel-Khan9/PowerBI_Reports`](https://github.com/Raheel-Khan9/PowerBI_Reports)
 
-### 6. [Build-Your-Own Layer-7 Reverse Proxy & Load Balancer with Health Checks](https://github.com/Raheel-Khan9/build-your-own-loadbalancer)
-- **Category:** SYSTEMS & NETWORKING ENGINEERING
-- **Stack:** Python, TCP/IP Sockets, HTTP/1.1, Round-Robin / Least-Connections Algorithms
-- **Description:** A custom Layer-7 reverse proxy and network load balancer built from scratch (inspired by CodeCrafters *Build Your Own X*) that routes web traffic across backend servers with automatic failover.
+### 4. [Layer-7 Reverse Proxy & Load Balancer with Health Checks](https://github.com/Raheel-Khan9/build-your-own-loadbalancer)
+- **Category:** SYSTEMS & NETWORKING
+- **Tools:** Python, TCP/IP Sockets, HTTP/1.1 Protocol, Load Balancing Algorithms, Health Checking
 - **Repository:** [`Raheel-Khan9/build-your-own-loadbalancer`](https://github.com/Raheel-Khan9/build-your-own-loadbalancer)
+
+### 5. [CloudCart: Microservices E-Commerce Platform on Azure & AWS](https://github.com/Raheel-Khan9/cloudcart-ecommerce-platform)
+- **Category:** CLOUD & DEVOPS ARCHITECTURE
+- **Tools:** Microsoft Azure (AKS), AWS (EKS), Terraform IaC, Docker, Kubernetes, GitHub Actions
+- **Repository:** [`Raheel-Khan9/cloudcart-ecommerce-platform`](https://github.com/Raheel-Khan9/cloudcart-ecommerce-platform)
+
+### 6. [FinCore: Serverless Real-Time Payment Processing & Fraud Risk Engine](https://github.com/Raheel-Khan9/fincore-payment-engine)
+- **Category:** FINTECH & TRANSACTION SECURITY
+- **Tools:** Azure Functions, AWS Lambda, Event Hubs / Kafka, Azure SQL Ledger, Redis, Python
+- **Repository:** [`Raheel-Khan9/fincore-payment-engine`](https://github.com/Raheel-Khan9/fincore-payment-engine)
 
 ---
 
 ## 🏢 Professional Experience
 
-### IT Systems Administrator
-**Doo Group (Doo ME Insurance Broker LLC) — Dubai, UAE** | *Aug 2024 – Present*  
+### IT System Administrator
+**Doo Group** | *Aug 2024 – Present*  
 *(Regulated Financial Services & Enterprise Brokerage | 250+ Users)*
 - **User Support:** Provided L2/L3 support to over 250+ staff for company operational CRM software, ensuring smooth brokerage operations.
 - **Government Audits:** Completed UAE Central Bank (CBUAE) and Dubai Health Authority security reviews with zero penalties.
@@ -166,7 +109,7 @@ npm run dev
 - **Reporting Automation:** Automated company reporting using Python, SQL, and Power BI, cutting report turnaround time by 40%.
 - **Vendor Risk Management:** Established security assessments for third-party software and vendors to safeguard company data.
 
-### System Administrator (Operations & Security)
+### IT System Administrator
 **Smile Link Dental Laboratory — Abu Dhabi, UAE** | *Apr 2023 – May 2024*  
 *(Healthcare & Clinical Technology Provider | 50+ Specialized CAD/CAM Users)*
 - **Healthcare Compliance:** Closed 100% of compliance requirements for Abu Dhabi Healthcare Information & Cyber Security (ADHICS) audits.
@@ -180,8 +123,8 @@ npm run dev
 - **Data Center Relocation:** Co-managed the physical and logical migration of data center servers and network equipment with zero unplanned downtime.
 - **Technical Support:** Resolved high-priority network and system tickets via Jira Service Management and documented troubleshooting guides.
 
-### Cybersecurity Analyst
-**Halool Pvt Ltd — Enterprise Technology & Security Services** | *Sep 2021 – Feb 2022*
+### Junior Cybersecurity Analyst
+**Halool Pvt Ltd.** | *Sep 2021 – Feb 2022*
 - **Security Monitoring:** Monitored real-time security events across company log sources using Wazuh SIEM.
 - **Incident Analysis:** Assisted in security log investigations and incident documentation to identify attack methods and apply fixes.
 

@@ -1082,9 +1082,36 @@ img {
     color: var(--accent-cyan);
 }
 
+.project-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.tool-tag {
+    font-size: 0.76rem;
+    font-family: var(--font-mono);
+    color: var(--accent-cyan);
+    background: rgba(0, 210, 255, 0.08);
+    border: 1px solid rgba(0, 210, 255, 0.22);
+    padding: 3px 9px;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.tool-tag:hover {
+    background: rgba(0, 210, 255, 0.16);
+    border-color: var(--accent-cyan);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 210, 255, 0.25);
+}
+
 .project-footer-action {
-    margin-top: 14px;
-    padding-top: 10px;
+    margin-top: auto;
+    padding-top: 12px;
     border-top: 1px solid var(--border-subtle);
 }
 
